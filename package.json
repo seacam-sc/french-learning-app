@@ -1,0 +1,9 @@
+{
+  "name": "french-learning-app",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate:curriculum": "node scripts/validate-curriculum.mjs"
+  }
+}
