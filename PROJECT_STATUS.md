@@ -19,7 +19,7 @@ Last updated: 2026-10-16 · Current milestone: **1 — Research and architecture
 - Network policy blocks coe.int, rm.coe.int, france-education-international.fr, fli.atilf.fr (HTTP 403 at proxy).
 
 ## Tests
-- `npm run validate:curriculum` — see latest result in commit message / below.
+- `npm run validate:curriculum` — PASS (130 objectives: A1 32, A2 32, B1 33, B2 33). French examples in GRM objectives spot-checked by supervisor; still AI-drafted, not independently verified.
 
 ## Blockers / pending decisions
 1. Approve architecture (D-001–D-003).
