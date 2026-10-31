@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import { render } from 'preact';
 
 function App() {
@@ -5,3 +6,9 @@ function App() {
 }
 
 render(<App />, document.getElementById('app')!);
+
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => { /* offline support is optional */ });
+  });
+}
