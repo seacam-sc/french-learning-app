@@ -1,6 +1,6 @@
 # Project status
 
-Last updated: 2026-10-31 · Current milestone: **2 — Question-bank prototype (done, awaiting human review)**
+Last updated: 2026-10-31 · Current milestone: **3 — Functional application (done, local only)**
 
 ## Done
 ### Milestone 1
@@ -18,8 +18,22 @@ Last updated: 2026-10-31 · Current milestone: **2 — Question-bank prototype (
 - 2.5 `content/QA_REPORT.md` (`npm run qa`).
 - 2.6 Human review flow: `npm run review:sheet` → fill in `Decision:` lines → `npm run review:apply -- <sheet>`. First sheet ready: `content/review/sheet-001.md` (10 questions, 2 flagged first).
 
+### Milestone 3 (2026-10-31; architecture approved, D-005 approved)
+- 3.1 Vite + Preact + TS scaffold; PWA manifest, service worker, SVG icon + 180px PNG iPhone icon. Deps pinned; `npm audit` 0 vulnerabilities.
+- 3.2 Answer checker `app/src/engine/check.ts` (case, spaces, apostrophes, French spacing, trailing punctuation, alternatives, accent near miss, targeted wrong-answer feedback).
+- 3.3 Practice screen: one question, choices/typing/word-ordering, Check, Hint, feedback, explanation, Retry, Another example, Next; keyboard support.
+- 3.4 IndexedDB progress store with export/import/reset `app/src/store/db.ts`; every answer saved immediately; reload resumes the same question.
+- 3.5 FSRS scheduling, objective stages (repeats of one variant group never count as mastery), weak-first selection `app/src/engine/`.
+- 3.6 Topics, Progress, Glossary overlay, Settings screens.
+- 3.7 Placement check (adaptive per area, provisional result, no CEFR claim).
+- Bank: `scripts/build-bank.mjs`; `npm run dev`/`build` include ai_reviewed questions marked "Unverified" (106 of 108; the 2 flagged are excluded).
+- Supervisor checked screenshots at 390×844, light and dark: no console errors.
+
 ## Tests (2026-10-31)
-- `npm test` — 21/21 pass.
+- `npx tsc -p .` — clean.
+- `npm test` — node 27/27 pass; vitest 203/203 pass (incl. every real question's answers accepted and wrong choices rejected).
+- `npx playwright test` — 31 pass, 1 skipped (keyboard-only test runs on desktop only), mobile 390×844 and desktop.
+
 - `npm run validate:curriculum` — PASS (130 objectives).
 - `npm run validate:questions` — PASS (108 questions, 0 errors, 0 warnings).
 - review:apply end-to-end run on a throwaway copy: ok → approved and moved to bank; reject → rejected; fix → human flag added. Behaved as expected.
@@ -31,6 +45,11 @@ Last updated: 2026-10-31 · Current milestone: **2 — Question-bank prototype (
 - AI review was not reliable on its own: the supervisor found problems in 4 questions it had passed (out of 108 checked partly). Expect more in the remainder.
 
 ## Known limitations
+- Not yet tried on a real iPhone (needs hosting — D-004). Dark mode checked by screenshot only.
+- French/English language tags for screen readers are guessed from the question format (e.g. reading-question prompts in English may be tagged French).
+- Placement answers don't feed practice scheduling.
+- Progress import checks shapes, not value ranges.
+- Human review is by Markdown sheet; there is no in-app review screen yet.
 - Translation questions are marked by listed alternatives. A correct answer nobody listed will be marked wrong. Suggest (needs approval): an "I think I was right" button that logs the answer for review instead of counting it wrong.
 - sentence_order items avoid commas; punctuation handling in the app must match the validator (final punctuation ignored).
 - Curriculum levels are unverified (official sources unreachable from this environment).
@@ -43,27 +62,18 @@ Last updated: 2026-10-31 · Current milestone: **2 — Question-bank prototype (
 - Network policy blocks coe.int, rm.coe.int, france-education-international.fr, fli.atilf.fr.
 
 ## Blockers / pending decisions
-1. Approve architecture (D-001–D-003) — needed before Milestone 3.
-2. Hosting for iPhone (D-004).
-3. Show `ai_reviewed` questions marked "Unverified" in the prototype before human approval? (D-005)
-4. Human review of sheet-001 (10 questions).
-5. Optional: allow official source domains in the environment network settings.
+1. Hosting for iPhone (D-004) — user will set up later (GitHub Pages or Netlify).
+2. Human review of content/review/sheet-001.md (10 questions).
+3. Optional: allow official source domains in the environment network settings.
+4. Optional: "I think I was right" button for translations (not built; needs approval).
 
 ## Development plan
-
-### Milestone 3 — Functional application (not started; needs decision 1)
-| Task | Acceptance criteria |
-|---|---|
-| 3.1 Vite + Preact + TS scaffold, PWA manifest, service worker | Builds; installs offline in Chromium |
-| 3.2 Answer checker (reuse normalise from validator) | Unit tests: case, spaces, apostrophes, punctuation, accents near-miss, alternatives |
-| 3.3 Practice screen (one question; answer; feedback; explanation; hint; retry; another example; next) | Playwright flow passes at 390×844 and desktop; keyboard-only flow passes |
-| 3.4 Progress store (IndexedDB) + export/import | Tests: reload mid-session resumes; export → import round-trip identical |
-| 3.5 FSRS scheduling + objective stages + selection | Unit tests on due ordering, weak-first weighting, variant-group counting |
-| 3.6 Topic picker, Progress view, Glossary panel, Settings | Playwright tests per screen |
-| 3.7 Diagnostic (adaptive) | Simulated-answer tests produce expected profiles |
 
 ### Milestone 4 — Evaluation
 Full test run, mobile check, curriculum coverage report, usability issues list, known issues, next-stage proposal.
 
+## How to run locally
+`npm install` then `npm run dev` and open the printed address. `npm run build` makes a static site in dist/.
+
 ## Next recommended action
-Get decisions 1–3 from the user, then start 3.1. Meanwhile the user can fill in content/review/sheet-001.md.
+Milestone 4 (evaluation): curriculum coverage report, usability review, question-quality review. Real-iPhone testing waits for hosting (D-004).

@@ -2,12 +2,20 @@
 
 A personal, practice-first French app (A1 → B2) for an adult learner. Clean revision-app style, no gamification.
 
-Status: Milestone 2 (question-bank prototype). No app yet — see PROJECT_STATUS.md.
+Status: Milestone 3 done — working local app. See PROJECT_STATUS.md.
+
+## Run it
+```
+npm install
+npm run dev      # local app with live reload
+npm run build    # static site in dist/
+```
 
 ## Requirements
 Node 22+.
 
 ## Commands
+- `npm run typecheck` · `npm run test:e2e` (Playwright, mobile + desktop)
 - `npm test` — unit tests (validators, review flow).
 - `npm run validate:curriculum` — schema, ids, prerequisites, cycles.
 - `npm run validate:questions [files] [--promote]` — question checks; --promote sets passing `generated` items to `structurally_validated`.
