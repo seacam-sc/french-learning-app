@@ -6,6 +6,9 @@
   "scripts": {
     "validate:curriculum": "node scripts/validate-curriculum.mjs",
     "validate:questions": "node scripts/validate-questions.mjs",
-    "test": "node --test \"tests/**/*.test.mjs\""
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "review:sheet": "node scripts/review-sheet.mjs",
+    "review:apply": "node scripts/apply-review.mjs",
+    "qa": "node scripts/qa-report.mjs"
   }
 }
