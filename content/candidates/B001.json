@@ -25,7 +25,7 @@
       "est": "'Est' goes with 'il' or 'elle' (he or she), not with 'je' (I)."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -51,7 +51,7 @@
     "hint": "This is the 'we' form of 'to be'.",
     "explanation": "'Nous' (we) goes with 'sommes', the 'we' form of 'to be' (être). The sentence means 'We are tired.'",
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -80,7 +80,7 @@
     "hint": "This is the 'I' form of the verb 'to have' (avoir).",
     "explanation": "'Avoir' means 'to have'. With 'je' (I) it becomes 'j'ai', so 'J'ai un chat' means 'I have a cat.'",
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -105,7 +105,7 @@
     "hint": "Use the 'is' form of 'to be' (être) with 'le café' (the coffee).",
     "explanation": "'Est' means 'is', the form of 'être' (to be) for one thing. 'Le café est chaud' means 'The coffee is hot.'",
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -140,7 +140,7 @@
       "les": "'Les' is for more than one thing, but 'livre' here means just one book."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -166,7 +166,7 @@
     "hint": "'Table' is a 'she' word, so choose the 'a' word that goes with 'she' words.",
     "explanation": "'Table' is a 'she' word, so 'a' becomes 'une' rather than 'un'. Use 'un' before 'he' words, such as 'un livre'.",
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -201,7 +201,7 @@
       "un": "'Un' means 'a', not 'the', so it does not fit 'the house'."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -227,7 +227,7 @@
     "hint": "Remember which 'the' word goes with 'he' words.",
     "explanation": "'Chien' (dog) is a 'he' word, so 'the' is 'le' here. 'Le' is shortened to 'l'' only before a vowel sound.",
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -253,7 +253,7 @@
     "hint": "The second half of 'not' goes after the verb.",
     "explanation": "'Ne' goes before the action word (the verb) and 'pas' goes after it. Together they make 'not', as in 'Je ne parle pas français' (I don't speak French).",
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -279,7 +279,7 @@
     "hint": "Look at where 'ne' sits: it belongs right before the verb 'est'.",
     "explanation": "'Ne' must come right before the verb 'est' (is), and it shortens to 'n'' before a vowel sound. 'Elle n'est pas contente' means 'She is not happy.'",
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -308,7 +308,7 @@
     "hint": "Put 'ne' before the verb and 'pas' after it.",
     "explanation": "To say 'not', put 'ne' before the action word (the verb) and 'pas' after it. Here 'parle' (speak) is the action word.",
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -342,7 +342,7 @@
       "Je ne pas travaille ici.": "'Pas' has to come after the verb, not before it."
     },
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -377,7 +377,7 @@
       "Comment": "'Comment' means 'how', and this sentence asks about a place."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -403,7 +403,7 @@
     "hint": "It starts with C and asks about an amount.",
     "explanation": "'Combien' asks 'how much' or 'how many'. 'Combien ça coûte ?' means 'How much does it cost?'",
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -434,7 +434,7 @@
     "hint": "The question word goes first, and the question mark goes at the end.",
     "explanation": "'Comment ça va ?' is a common way to ask 'How are you?' The question word 'comment' (how) comes first.",
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -463,7 +463,7 @@
     "hint": "Start with the French word for 'who'.",
     "explanation": "'Qui' means 'who'. Put it first, then 'est' (is), to ask 'who is ...?'",
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -497,7 +497,7 @@
       "Bonsoir": "'Bonsoir' means 'good evening', so it is for later in the day."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -528,7 +528,7 @@
     "hint": "The goodbye phrase comes first.",
     "explanation": "'Au revoir' means goodbye. 'Monsieur' is the polite word for a man, and it comes last here.",
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -563,7 +563,7 @@
       "nous": "'Nous' means 'we', not 'you'."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -594,7 +594,7 @@
     "hint": "The word for thank you comes first.",
     "explanation": "'Merci beaucoup' means thank you very much. 'Madame' is the polite word for a woman, and it comes last.",
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -630,7 +630,7 @@
       "Sunday": "The museum is open on Sunday, because the opening days run up to 'dimanche' (Sunday)."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -665,7 +665,7 @@
       "Toilets": "'Toilets' is 'toilettes'; 'sortie' is about going out of a place."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -704,7 +704,7 @@
       "Yes, it opens at seven today.": "The opening at seven is for tomorrow ('demain'), not for today."
     },
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -738,7 +738,7 @@
       "Push": "'Push' is a different sign, 'poussez', which tells you how to move the door."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -773,7 +773,7 @@
       "jeudi": "'Jeudi' means Thursday, not Tuesday."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -799,7 +799,7 @@
     "hint": "Think about what you count when you tell the time.",
     "explanation": "French says 'Il est trois heures' for 'It's three o'clock'. Keep 'heures' after the number when you give the hour.",
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -829,7 +829,7 @@
     "hint": "One correct way starts with the French word for 'today'.",
     "explanation": "French often says 'Nous sommes lundi' for 'It's Monday' (word for word, 'We are Monday'). 'Aujourd'hui, c'est lundi' also works.",
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -863,7 +863,7 @@
       "Il est demie quatre.": "'Demie' has to come after 'heures' (hours), so the word order is wrong."
     },
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -898,7 +898,7 @@
       "my mother": "'My mother' is 'ma mère'. 'Sœur' is the word for sister."
     },
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -927,7 +927,7 @@
     "hint": "'Mon' is the 'my' word used with a 'he' word.",
     "explanation": "'Père' means father (or dad). 'Grand' means tall, so 'Mon père est grand' is 'My father is tall.'",
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -952,7 +952,7 @@
     "hint": "Start with the French word for brother, and check which 'my' word goes with it.",
     "explanation": "'Frère' means brother and 'drôle' means funny. Use 'mon' for 'my' with 'frère', because it is a 'he' word.",
     "difficulty": 1,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
@@ -981,7 +981,7 @@
     "hint": "'Ma' is the 'my' word for a 'she' word, and 'grand-mère' is a family member.",
     "explanation": "'Grand-mère' means grandmother. 'Habite' means lives, and 'ici' means here, so the sentence is 'My grandmother lives here.'",
     "difficulty": 2,
-    "status": "generated",
+    "status": "structurally_validated",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
