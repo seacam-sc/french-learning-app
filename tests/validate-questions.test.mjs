@@ -42,3 +42,6 @@ test('reading_comprehension may have choices; fill_blank may not', () => {
   assert.deepEqual(run([r]).errors, []);
   assert.match(run([{ ...base, choices: ['ne', 'pas'] }]).errors.join(), /choices not allowed/);
 });
+test('alternative differing only by accents is an error', () => {
+  assert.match(run([{ ...base, prompt: 'Il faut des ___.', answer: 'démarches', acceptable_alternatives: ['demarches'] }]).errors.join(), /only differs by accents/);
+});

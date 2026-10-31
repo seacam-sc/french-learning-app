@@ -17,13 +17,14 @@
     "hint": "Use the 'we would have' form of avoir (to have), then the past form of acheter (to buy).",
     "explanation": "After si (if) with avions su (had known), the second part uses aurions (we would have) plus the past form acheté. Together they mean 'we would have bought'.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-001-002",
@@ -35,32 +36,33 @@
     "instruction": "Choose the correct answer.",
     "prompt": "Si tu m'avais appelé, je t'___ aidé.",
     "choices": [
-      "aurais aidé",
-      "avais aidé",
-      "aurais aider",
-      "aurai aidé"
+      "aurais",
+      "avais",
+      "aurai",
+      "ai"
     ],
-    "answer": "aurais aidé",
+    "answer": "aurais",
     "acceptable_alternatives": [],
     "answer_check": {
       "mode": "normalised",
       "accent_policy": "near_miss"
     },
     "wrong_answer_feedback": {
-      "avais aidé": "That gives 'I had helped', which describes the past rather than what you would have done.",
-      "aurais aider": "The ending must be aidé (helped), not aider, which is the base form meaning 'to help'.",
-      "aurai aidé": "That means 'I will have helped'. This sentence needs 'I would have', which is aurais."
+      "avais": "That gives 'I had helped', which looks back at the past and does not say what you would have done.",
+      "aurai": "That means 'I will have helped'. This sentence needs 'I would have', which is aurais.",
+      "ai": "That means 'I helped' (a plain past), not what I would have done if you had called."
     },
-    "hint": "Think about the 'would have' form of avoir (to have), used with je (I).",
-    "explanation": "After si (if) with avais appelé (had called), the second verb uses the 'would have' form aurais, followed by the past form aidé (helped).",
+    "hint": "The result part needs the 'would have' form of avoir (to have), used with je (I), followed by aidé.",
+    "explanation": "After si (if) with avais appelé (had called), the second part uses the 'would have' form aurais. With aidé (helped) it gives je t'aurais aidé, 'I would have helped you'.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Defect: aidé was already in prompt so answer \"aurais aidé\" duplicated it. Choices/answer/feedback/hint/explanation changed to aurais etc."
   },
   {
     "id": "Q-B2-GRM-001-003",
@@ -73,7 +75,11 @@
     "prompt": "If we had known, we would have called.",
     "answer": "Si nous avions su, nous aurions appelé.",
     "acceptable_alternatives": [
-      "Si on avait su, on aurait appelé."
+      "Si on avait su, on aurait appelé.",
+      "Si nous avions su, nous aurions téléphoné.",
+      "Si on avait su, on aurait téléphoné.",
+      "Nous aurions appelé si nous avions su.",
+      "On aurait appelé si on avait su."
     ],
     "answer_check": {
       "mode": "normalised",
@@ -82,13 +88,14 @@
     "hint": "Start with Si, then use avions for 'we had' with savoir (to know), and aurions for 'we would have'.",
     "explanation": "Si nous avions su means 'if we had known'. Nous aurions appelé means 'we would have called', using the past form appelé of appeler (to call).",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added alternatives (téléphoné, word order)."
   },
   {
     "id": "Q-B2-GRM-001-004",
@@ -108,13 +115,14 @@
     "hint": "Look at the ending of the second verb. Is it the 'would have' form or the 'will have' form?",
     "explanation": "After si (if) with avais su (had known), the second verb must use the 'would have' form aurais. Aurai means 'will have', which does not fit this sentence.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-002-001",
@@ -134,13 +142,14 @@
     "hint": "Pour que (so that) is followed by a special verb form. For tu (you), the ending of pouvoir (to be able) ends in -es.",
     "explanation": "Pour que (so that) is followed by a special verb form called the subjunctive, used for purpose and wishes. For tu (you), pouvoir (to be able) becomes puisses.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-002-002",
@@ -171,13 +180,14 @@
     "hint": "Bien que (although) is followed by the special form of être (to be) for il (he).",
     "explanation": "Bien que (although) is followed by the special verb form called the subjunctive. For il (he), être (to be) becomes soit, as in 'bien qu'il soit tard' (although it is late).",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-002-003",
@@ -189,7 +199,9 @@
     "instruction": "Correct the mistake.",
     "prompt": "Nous partirons avant qu'il arrivera.",
     "answer": "Nous partirons avant qu'il arrive.",
-    "acceptable_alternatives": [],
+    "acceptable_alternatives": [
+      "Nous partirons avant qu'il n'arrive."
+    ],
     "answer_check": {
       "mode": "normalised",
       "accent_policy": "near_miss"
@@ -197,13 +209,14 @@
     "hint": "After avant que (before), the verb is not used in the future form. Look at the verb after qu'il.",
     "explanation": "After avant que (before), the verb takes the special subjunctive form. For il (he), arriver (to arrive) becomes arrive, not the future arrivera.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added avant qu'il n'arrive."
   },
   {
     "id": "Q-B2-GRM-002-004",
@@ -217,7 +230,9 @@
     "answer": "Bien qu'il pleuve, nous sortons.",
     "acceptable_alternatives": [
       "Bien qu'il pleuve, on sort.",
-      "Bien qu'il pleuve nous sortons"
+      "Bien qu'il pleuve nous sortons",
+      "Nous sortons bien qu'il pleuve.",
+      "On sort bien qu'il pleuve."
     ],
     "answer_check": {
       "mode": "normalised",
@@ -226,13 +241,14 @@
     "hint": "Bien que (although) takes the special verb form of pleuvoir (to rain), used with il.",
     "explanation": "Bien qu'il pleuve means 'although it is raining', with the special verb form pleuve after bien que. Nous sortons means 'we are going out'.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added word-order alternatives."
   },
   {
     "id": "Q-B2-GRM-003-001",
@@ -263,13 +279,14 @@
     "hint": "After an opinion such as 'je ne pense pas que' (I don't think that), use the special form of avoir (to have) for il (he).",
     "explanation": "After doubt or opinion, the verb takes a special form called the subjunctive. For il (he), avoir (to have) becomes ait, as in 'il ait raison' (he is right).",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-003-002",
@@ -289,13 +306,14 @@
     "hint": "After 'je doute que' (I doubt that), use the special form of finir (to finish) for il (he).",
     "explanation": "After je doute que (I doubt that), the verb takes the special subjunctive form. For il (he), finir (to finish) becomes finisse.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-003-003",
@@ -315,13 +333,14 @@
     "hint": "After an opinion like 'je ne pense pas que', the verb needs its special form, not the normal one.",
     "explanation": "After an opinion like 'je ne pense pas que' (I don't think that), the verb needs the special subjunctive form soit (from être, to be), not est.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-003-004",
@@ -341,13 +360,14 @@
     "hint": "After 'je doute que' (I doubt that), use the special form of être (to be) for elle (she).",
     "explanation": "After je doute que (I doubt that), use the special form soit (from être, to be) for elle (she). Prête means ready.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-010-001",
@@ -367,13 +387,14 @@
     "hint": "La lettre (the letter) comes before the past form. Does écrit need an extra ending to match it?",
     "explanation": "When the thing you talk about comes before the past form, the past form must match it. La lettre (the letter) is a 'la' word, so écrit takes an -e and becomes écrite.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-010-002",
@@ -393,13 +414,14 @@
     "hint": "Look at the photos: they come before the verb, and there is more than one of them.",
     "explanation": "Les photos (the photos) come before the past form, so the past form must match them. It is several items of the 'la' type, so pris (taken) becomes prises.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-010-003",
@@ -430,13 +452,14 @@
     "hint": "The shoes come before the verb, so the past form must match them in number and in type.",
     "explanation": "Chaussures (shoes) comes before the past form, is more than one item, and is a 'la' type word. So the past form ends in -ées, as in achetées.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-GRM-010-004",
@@ -448,7 +471,11 @@
     "instruction": "Translate into French.",
     "prompt": "The cakes that she made were delicious.",
     "answer": "Les gâteaux qu'elle a faits étaient délicieux.",
-    "acceptable_alternatives": [],
+    "acceptable_alternatives": [
+      "Les gâteaux qu'elle a préparés étaient délicieux.",
+      "Les gâteaux qu'elle avait faits étaient délicieux.",
+      "Les gâteaux qu'elle avait préparés étaient délicieux."
+    ],
     "answer_check": {
       "mode": "normalised",
       "accent_policy": "near_miss"
@@ -456,13 +483,14 @@
     "hint": "Les gâteaux (the cakes) come before the past form, so the past form of faire (to make) must match them.",
     "explanation": "Gâteaux (cakes) comes before the past form, so faire (to make) takes the matching ending and becomes faits. Étaient délicieux means 'were delicious'.",
     "difficulty": 4,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added préparés / avait faits alternatives."
   },
   {
     "id": "Q-B2-VOC-003-001",
@@ -493,13 +521,14 @@
     "hint": "You need a document that proves where you live. The word starts with j.",
     "explanation": "A justificatif is a document that proves something, such as your address. Un justificatif de domicile is a proof of address.",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-VOC-003-002",
@@ -515,7 +544,11 @@
       "The lease must be signed before March 1.",
       "The lease has to be signed before 1 March.",
       "The lease must be signed before the 1st of March.",
-      "The lease must be signed before March 1st."
+      "The lease must be signed before March 1st.",
+      "The lease needs to be signed before 1 March.",
+      "The rental agreement must be signed before 1 March.",
+      "The tenancy agreement must be signed before 1 March.",
+      "The lease agreement must be signed before 1 March."
     ],
     "answer_check": {
       "mode": "normalised",
@@ -524,13 +557,14 @@
     "hint": "Bail is a word for a rental contract. Doit être means 'must be'.",
     "explanation": "Bail means lease, the written rental contract. Doit être signé means 'must be signed'.",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added alternatives."
   },
   {
     "id": "Q-B2-VOC-003-003",
@@ -540,25 +574,24 @@
     "variant_group": "B2-VOC-003-v3",
     "format": "fill_blank",
     "instruction": "Fill the gap.",
-    "prompt": "Pour renouveler votre titre de séjour, faites une ___ en ligne.",
-    "answer": "démarche",
-    "acceptable_alternatives": [
-      "demarche"
-    ],
+    "prompt": "Pour renouveler votre titre de séjour, il faut accomplir plusieurs ___ administratives.",
+    "answer": "démarches",
+    "acceptable_alternatives": [],
     "answer_check": {
       "mode": "normalised",
       "accent_policy": "near_miss"
     },
-    "hint": "It is a formal step or procedure you take with an office. It starts with d.",
-    "explanation": "A démarche is a formal step, such as applying online to renew your residence permit (titre de séjour). Faites une démarche means 'take a step'.",
+    "hint": "The formal steps you go through with an office; here it is plural. It starts with d.",
+    "explanation": "Des démarches are the formal steps you take with an office, such as renewing a residence permit (titre de séjour). Accomplir des démarches means to go through the formalities.",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Defect: \"faites une demande en ligne\" also fits (demande). Prompt rewritten with plural \"accomplir plusieurs ___ administratives\"; answer now démarches; hint/explanation updated. Supervisor: removed accent-less 'demarches' (accents handled as near miss)."
   },
   {
     "id": "Q-B2-VOC-003-004",
@@ -582,13 +615,14 @@
     "hint": "Attestation is an official paper that confirms something. Jointe means attached.",
     "explanation": "An attestation is an official paper that confirms something. Here it is an insurance certificate, attached (jointe) to the contract.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-ADV-001-001",
@@ -619,13 +653,14 @@
     "hint": "Notice the word encore (again), and think about how the word Super sounds here.",
     "explanation": "Super (great) is used sarcastically, so it means the opposite of what the word says. This is called irony, and the colleague is annoyed.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-ADV-001-002",
@@ -657,13 +692,14 @@
     "hint": "Compare the words of thanks with what the writer says about the noise and the glasses.",
     "explanation": "The writer uses the word thanks but means the opposite, such as 'quelle surprise' (what a surprise). This is irony, showing annoyance.",
     "difficulty": 4,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-B2-ADV-001-003",
@@ -695,16 +731,14 @@
     "hint": "Look at the opening and closing lines, and notice how the writer says what must happen.",
     "explanation": "The letter uses formal phrases and the polite 'you' form, vous, throughout. It is firm because it states clearly what is needed and what happens without the papers.",
     "difficulty": 4,
-    "status": "structurally_validated",
-    "flags": [
-      "uncertain: 'firm' is a judgement about tone; reviewer to confirm the answer is the only defensible one"
-    ],
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Resolved tone flag: distractors (casual, angry, joking) are clearly wrong; formal, polite and firm (sans ces pièces... pas donner suite) is the only defensible tone. Flag removed."
   },
   {
     "id": "Q-B2-ADV-001-004",
@@ -719,7 +753,11 @@
     "acceptable_alternatives": [
       "Pourriez-vous m'envoyer le fichier s'il vous plaît ?",
       "Pourriez-vous m'envoyer le document, s'il vous plaît ?",
-      "Pourriez-vous m'envoyer le document s'il vous plaît ?"
+      "Pourriez-vous m'envoyer le document s'il vous plaît ?",
+      "Pourriez-vous m'envoyer le dossier, s'il vous plaît ?",
+      "Pourriez-vous me faire parvenir le fichier, s'il vous plaît ?",
+      "Vous pourriez m'envoyer le fichier, s'il vous plaît ?",
+      "S'il vous plaît, pourriez-vous m'envoyer le fichier ?"
     ],
     "answer_check": {
       "mode": "normalised",
@@ -728,12 +766,13 @@
     "hint": "Use the polite vous form with the polite form of pouvoir (to be able), then the verb envoyer (to send).",
     "explanation": "For a formal request, use vous (the polite 'you') and pourriez (could). S'il vous plaît means 'please'.",
     "difficulty": 3,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B004",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added alternatives (dossier, faire parvenir, word order)."
   }
 ]

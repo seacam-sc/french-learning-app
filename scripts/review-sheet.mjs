@@ -1,6 +1,6 @@
 // Writes a small review sheet of questions awaiting human review.
 // Usage: node scripts/review-sheet.mjs [--size 10]
-// Picks ai_reviewed questions first, then flagged structurally_validated ones, from content/candidates.
+// Picks flagged structurally_validated questions first, then ai_reviewed ones, from content/candidates.
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -13,8 +13,8 @@ const dir = join(root, 'content/candidates');
 const all = readdirSync(dir).filter((f) => f.endsWith('.json')).flatMap((f) => JSON.parse(readFileSync(join(dir, f))));
 const humanFlagged = (q) => q.flags?.some((f) => f.startsWith('human:'));
 const queue = [
-  ...all.filter((q) => q.status === 'ai_reviewed'),
   ...all.filter((q) => q.status === 'structurally_validated' && q.flags?.length && !humanFlagged(q)),
+  ...all.filter((q) => q.status === 'ai_reviewed'),
 ].slice(0, size);
 if (!queue.length) { console.log('Nothing waiting for review.'); process.exit(0); }
 const reviewDir = join(root, 'content/review');

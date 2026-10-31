@@ -33,6 +33,10 @@ export function checkQuestions(questions, objectives) {
       errors.push(`${where}: id does not match objective_id ${q.objective_id}`);
     const answers = [q.answer, ...(q.acceptable_alternatives || [])].filter((a) => typeof a === 'string');
     const normAnswers = answers.map(normalise);
+    const stripAccents = (x) => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    for (const alt of q.acceptable_alternatives || [])
+      if (alt !== q.answer && normalise(alt) !== normalise(q.answer || '') && stripAccents(normalise(alt)) === stripAccents(normalise(q.answer || '')))
+        errors.push(`${where}: alternative "${alt}" only differs by accents (accents are handled as a near miss)`);
     if (new Set(normAnswers).size !== normAnswers.length) warnings.push(`${where}: duplicate answers after normalising`);
     const CHOICE_FORMATS = ['mcq', 'reading_comprehension', 'listening_comprehension'];
     if (q.format === 'mcq' && !Array.isArray(q.choices)) errors.push(`${where}: mcq needs choices`);

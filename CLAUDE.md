@@ -29,7 +29,12 @@ Personal, adult-oriented, practice-first French app (A1→B2) for an English-spe
 Give every delegated task: bounded scope, exact output path, acceptance criteria, required test command.
 
 ## Commands
+- `npm test` — unit tests (validators, review flow).
 - `npm run validate:curriculum` — schema, ids, prerequisites, cycles.
+- `npm run validate:questions [files] [--promote]` — question checks; --promote sets passing `generated` items to `structurally_validated`.
+- `npm run qa` — writes content/QA_REPORT.md.
+- `npm run review:sheet` — writes the next small human review sheet (content/review/sheet-NNN.md), flagged items first.
+- `npm run review:apply -- content/review/sheet-NNN.md` — applies the human's ok / fix / reject decisions; approved items move to content/questions/<level>.json.
 
 ## Layout
 schemas/ JSON Schemas · curriculum/ objectives · content/ questions (candidates/ = unapproved) · research/ sources · scripts/ validators and pipeline · app/ (Milestone 3)
