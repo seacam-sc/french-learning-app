@@ -25,14 +25,15 @@
       "est": "'Est' goes with 'il' or 'elle' (he or she), not with 'je' (I)."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-001-002",
@@ -42,7 +43,7 @@
     "variant_group": "A1-GRM-001-v2",
     "format": "fill_blank",
     "instruction": "Fill the gap.",
-    "prompt": "Nous ___ fatigués.",
+    "prompt": "Nous ___ (être) fatigués.",
     "answer": "sommes",
     "answer_check": {
       "mode": "normalised",
@@ -51,14 +52,15 @@
     "hint": "This is the 'we' form of 'to be'.",
     "explanation": "'Nous' (we) goes with 'sommes', the 'we' form of 'to be' (être). The sentence means 'We are tired.'",
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Added (être) to gap."
   },
   {
     "id": "Q-A1-GRM-001-003",
@@ -80,13 +82,14 @@
     "hint": "This is the 'I' form of the verb 'to have' (avoir).",
     "explanation": "'Avoir' means 'to have'. With 'je' (I) it becomes 'j'ai', so 'J'ai un chat' means 'I have a cat.'",
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-001-004",
@@ -105,14 +108,15 @@
     "hint": "Use the 'is' form of 'to be' (être) with 'le café' (the coffee).",
     "explanation": "'Est' means 'is', the form of 'être' (to be) for one thing. 'Le café est chaud' means 'The coffee is hot.'",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-004-001",
@@ -140,14 +144,15 @@
       "les": "'Les' is for more than one thing, but 'livre' here means just one book."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-004-002",
@@ -166,14 +171,15 @@
     "hint": "'Table' is a 'she' word, so choose the 'a' word that goes with 'she' words.",
     "explanation": "'Table' is a 'she' word, so 'a' becomes 'une' rather than 'un'. Use 'un' before 'he' words, such as 'un livre'.",
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-004-003",
@@ -201,14 +207,15 @@
       "un": "'Un' means 'a', not 'the', so it does not fit 'the house'."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-004-004",
@@ -227,14 +234,15 @@
     "hint": "Remember which 'the' word goes with 'he' words.",
     "explanation": "'Chien' (dog) is a 'he' word, so 'the' is 'le' here. 'Le' is shortened to 'l'' only before a vowel sound.",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-007-001",
@@ -244,7 +252,7 @@
     "variant_group": "A1-GRM-007-v1",
     "format": "fill_blank",
     "instruction": "Fill the gap.",
-    "prompt": "Je ne parle ___ français.",
+    "prompt": "Je ne parle ___ français. (I don't speak French.)",
     "answer": "pas",
     "answer_check": {
       "mode": "normalised",
@@ -253,14 +261,15 @@
     "hint": "The second half of 'not' goes after the verb.",
     "explanation": "'Ne' goes before the action word (the verb) and 'pas' goes after it. Together they make 'not', as in 'Je ne parle pas français' (I don't speak French).",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Added English cue to gap (plus/jamais would otherwise fit)."
   },
   {
     "id": "Q-A1-GRM-007-002",
@@ -279,14 +288,15 @@
     "hint": "Look at where 'ne' sits: it belongs right before the verb 'est'.",
     "explanation": "'Ne' must come right before the verb 'est' (is), and it shortens to 'n'' before a vowel sound. 'Elle n'est pas contente' means 'She is not happy.'",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-007-003",
@@ -308,13 +318,14 @@
     "hint": "Put 'ne' before the verb and 'pas' after it.",
     "explanation": "To say 'not', put 'ne' before the action word (the verb) and 'pas' after it. Here 'parle' (speak) is the action word.",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-007-004",
@@ -342,14 +353,15 @@
       "Je ne pas travaille ici.": "'Pas' has to come after the verb, not before it."
     },
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-009-001",
@@ -377,14 +389,15 @@
       "Comment": "'Comment' means 'how', and this sentence asks about a place."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-GRM-009-002",
@@ -394,7 +407,7 @@
     "variant_group": "A1-GRM-009-v2",
     "format": "fill_blank",
     "instruction": "Fill the gap.",
-    "prompt": "___ ça coûte ?",
+    "prompt": "___ ça coûte ? (How much does it cost?)",
     "answer": "Combien",
     "answer_check": {
       "mode": "normalised",
@@ -403,14 +416,15 @@
     "hint": "It starts with C and asks about an amount.",
     "explanation": "'Combien' asks 'how much' or 'how many'. 'Combien ça coûte ?' means 'How much does it cost?'",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Added English cue to gap."
   },
   {
     "id": "Q-A1-GRM-009-003",
@@ -431,17 +445,18 @@
       "mode": "normalised",
       "accent_policy": "near_miss"
     },
-    "hint": "The question word goes first, and the question mark goes at the end.",
+    "hint": "The question word goes first.",
     "explanation": "'Comment ça va ?' is a common way to ask 'How are you?' The question word 'comment' (how) comes first.",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Hint no longer mentions a question mark (not a token)."
   },
   {
     "id": "Q-A1-GRM-009-004",
@@ -454,7 +469,13 @@
     "prompt": "Who is your teacher?",
     "answer": "Qui est ton professeur ?",
     "acceptable_alternatives": [
-      "Qui est votre professeur ?"
+      "Qui est votre professeur ?",
+      "Qui est ton prof ?",
+      "Qui est votre prof ?",
+      "Qui est ta professeure ?",
+      "Qui est votre professeure ?",
+      "Qui est ton enseignant ?",
+      "Qui est votre enseignant ?"
     ],
     "answer_check": {
       "mode": "normalised",
@@ -463,13 +484,14 @@
     "hint": "Start with the French word for 'who'.",
     "explanation": "'Qui' means 'who'. Put it first, then 'est' (is), to ask 'who is ...?'",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added prof/professeure/enseignant and tu/vous alternatives."
   },
   {
     "id": "Q-A1-PRA-001-001",
@@ -497,14 +519,15 @@
       "Bonsoir": "'Bonsoir' means 'good evening', so it is for later in the day."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-PRA-001-002",
@@ -525,17 +548,20 @@
       "mode": "normalised",
       "accent_policy": "near_miss"
     },
-    "hint": "The goodbye phrase comes first.",
+    "hint": "Keep the goodbye phrase together; the polite title usually goes last.",
     "explanation": "'Au revoir' means goodbye. 'Monsieur' is the polite word for a man, and it comes last here.",
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [
+      "Monsieur au revoir"
+    ],
+    "review_notes": "Added title-first alternatives; hint made consistent with them."
   },
   {
     "id": "Q-A1-PRA-001-003",
@@ -563,14 +589,15 @@
       "nous": "'Nous' means 'we', not 'you'."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-PRA-001-004",
@@ -591,17 +618,20 @@
       "mode": "normalised",
       "accent_policy": "near_miss"
     },
-    "hint": "The word for thank you comes first.",
+    "hint": "Keep the thank-you phrase together; the polite title usually goes last.",
     "explanation": "'Merci beaucoup' means thank you very much. 'Madame' is the polite word for a woman, and it comes last.",
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [
+      "Madame merci beaucoup"
+    ],
+    "review_notes": "Added title-first alternatives; hint made consistent with them."
   },
   {
     "id": "Q-A1-REA-001-001",
@@ -630,14 +660,15 @@
       "Sunday": "The museum is open on Sunday, because the opening days run up to 'dimanche' (Sunday)."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-REA-001-002",
@@ -665,14 +696,15 @@
       "Toilets": "'Toilets' is 'toilettes'; 'sortie' is about going out of a place."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-REA-001-003",
@@ -704,13 +736,14 @@
       "Yes, it opens at seven today.": "The opening at seven is for tomorrow ('demain'), not for today."
     },
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-REA-001-004",
@@ -738,14 +771,15 @@
       "Push": "'Push' is a different sign, 'poussez', which tells you how to move the door."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-VOC-002-001",
@@ -773,14 +807,15 @@
       "jeudi": "'Jeudi' means Thursday, not Tuesday."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-VOC-002-002",
@@ -799,14 +834,15 @@
     "hint": "Think about what you count when you tell the time.",
     "explanation": "French says 'Il est trois heures' for 'It's three o'clock'. Keep 'heures' after the number when you give the hour.",
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-VOC-002-003",
@@ -820,7 +856,13 @@
     "answer": "Nous sommes lundi.",
     "acceptable_alternatives": [
       "Aujourd'hui, c'est lundi.",
-      "Aujourd'hui c'est lundi."
+      "Aujourd'hui c'est lundi.",
+      "Aujourd'hui, nous sommes lundi.",
+      "Aujourd'hui nous sommes lundi.",
+      "On est lundi.",
+      "Aujourd'hui, on est lundi.",
+      "C'est lundi aujourd'hui.",
+      "Nous sommes lundi aujourd'hui."
     ],
     "answer_check": {
       "mode": "normalised",
@@ -828,14 +870,15 @@
     },
     "hint": "One correct way starts with the French word for 'today'.",
     "explanation": "French often says 'Nous sommes lundi' for 'It's Monday' (word for word, 'We are Monday'). 'Aujourd'hui, c'est lundi' also works.",
-    "difficulty": 1,
-    "status": "structurally_validated",
+    "difficulty": 2,
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added common alternatives; difficulty 1->2 (idiom)."
   },
   {
     "id": "Q-A1-VOC-002-004",
@@ -859,18 +902,19 @@
     "hint": "Use 'et' (and) before the half-hour.",
     "explanation": "To say half past, use 'et demie' (and a half), as in 'Il est quatre heures et demie' (It's half past four).",
     "wrong_answer_feedback": {
-      "Il est quatre heures moins demie.": "'Moins' means 'to', so this would mean half to four, which is 3:30, not 4:30.",
+      "Il est quatre heures moins demie.": "'Moins' means 'minus' and is used for minutes before the hour, as in 'moins le quart'. Half past uses 'et demie'.",
       "Il est demie quatre.": "'Demie' has to come after 'heures' (hours), so the word order is wrong."
     },
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Corrected misleading 'moins' feedback."
   },
   {
     "id": "Q-A1-VOC-003-001",
@@ -898,14 +942,15 @@
       "my mother": "'My mother' is 'ma mère'. 'Sœur' is the word for sister."
     },
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [],
+    "review_notes": "Reviewed; no change needed."
   },
   {
     "id": "Q-A1-VOC-003-002",
@@ -918,7 +963,9 @@
     "prompt": "Mon père est grand.",
     "answer": "My father is tall.",
     "acceptable_alternatives": [
-      "My dad is tall."
+      "My dad is tall.",
+      "My father's tall.",
+      "My dad's tall."
     ],
     "answer_check": {
       "mode": "normalised",
@@ -927,13 +974,14 @@
     "hint": "'Mon' is the 'my' word used with a 'he' word.",
     "explanation": "'Père' means father (or dad). 'Grand' means tall, so 'Mon père est grand' is 'My father is tall.'",
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added contracted alternatives."
   },
   {
     "id": "Q-A1-VOC-003-003",
@@ -952,14 +1000,19 @@
     "hint": "Start with the French word for brother, and check which 'my' word goes with it.",
     "explanation": "'Frère' means brother and 'drôle' means funny. Use 'mon' for 'my' with 'frère', because it is a 'he' word.",
     "difficulty": 1,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
     },
-    "acceptable_alternatives": []
+    "acceptable_alternatives": [
+      "Mon frère est amusant.",
+      "Mon frère est marrant.",
+      "Mon frère est rigolo."
+    ],
+    "review_notes": "Added synonyms for funny."
   },
   {
     "id": "Q-A1-VOC-003-004",
@@ -972,7 +1025,11 @@
     "prompt": "Ma grand-mère habite ici.",
     "answer": "My grandmother lives here.",
     "acceptable_alternatives": [
-      "My grandma lives here."
+      "My grandma lives here.",
+      "My gran lives here.",
+      "My granny lives here.",
+      "My nan lives here.",
+      "My grandmother is living here."
     ],
     "answer_check": {
       "mode": "normalised",
@@ -981,12 +1038,13 @@
     "hint": "'Ma' is the 'my' word for a 'she' word, and 'grand-mère' is a family member.",
     "explanation": "'Grand-mère' means grandmother. 'Habite' means lives, and 'ici' means here, so the sentence is 'My grandmother lives here.'",
     "difficulty": 2,
-    "status": "structurally_validated",
+    "status": "ai_reviewed",
     "provenance": {
       "method": "ai-generated",
       "model_tier": "haiku",
       "batch_id": "B001",
       "date": "2026-10-31"
-    }
+    },
+    "review_notes": "Added English variants."
   }
 ]
