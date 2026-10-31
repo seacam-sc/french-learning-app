@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "validate:curriculum": "node scripts/validate-curriculum.mjs"
+    "validate:curriculum": "node scripts/validate-curriculum.mjs",
+    "validate:questions": "node scripts/validate-questions.mjs",
+    "test": "node --test \"tests/**/*.test.mjs\""
   }
 }
