@@ -62,7 +62,7 @@ Last updated: 2026-10-31 · Current milestone: **3 — Functional application (d
 - Network policy blocks coe.int, rm.coe.int, france-education-international.fr, fli.atilf.fr.
 
 ## Blockers / pending decisions
-1. Hosting (D-004 approved): deploy workflow added. User to make the repo public, set Settings → Pages → Source: GitHub Actions, and merge the branch into main. Address will be https://seacam-sc.github.io/french-learning-app/
+1. Hosting live (2026-10-31): https://seacam-sc.github.io/french-learning-app/ — deploys on every push to main (run 2 succeeded; run 1 failed on a missing empty folder, fixed in PR #2). Not yet confirmed on the user's iPhone; this environment cannot reach github.io.
 2. Human review of content/review/sheet-001.md (10 questions).
 3. Optional: allow official source domains in the environment network settings.
 4. Optional: "I think I was right" button for translations (not built; needs approval).
