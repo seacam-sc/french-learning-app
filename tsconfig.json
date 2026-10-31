@@ -3,7 +3,11 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
     "strict": true,
@@ -12,5 +16,13 @@
     "resolveJsonModule": true,
     "types": []
   },
-  "include": ["app/src", "e2e", "vite.config.ts", "playwright.config.ts"]
+  "include": [
+    "app/src",
+    "e2e",
+    "vite.config.ts",
+    "playwright.config.ts"
+  ],
+  "exclude": [
+    "app/src/**/*.integration.test.ts"
+  ]
 }
