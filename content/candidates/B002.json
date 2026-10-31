@@ -1,0 +1,745 @@
+[
+  {
+    "id": "Q-A2-GRM-001-001",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-001",
+    "variant_group": "A2-GRM-001-v1",
+    "format": "fill_blank",
+    "instruction": "Fill the gap.",
+    "prompt": "Hier, Marie ___ un livre.",
+    "answer": "a lu",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Marie is one person, so use the 'she has' form of avoir (to have), then the past form of lire (to read).",
+    "explanation": "The past form of lire (to read) is lu. With Marie, use a (the 'she has' form of avoir) followed by lu, so it means she read.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-001-002",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-001",
+    "variant_group": "A2-GRM-001-v2",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Nous ___ le film hier soir.",
+    "choices": [
+      "avons vu",
+      "sommes vu",
+      "avons voir",
+      "avons voyé"
+    ],
+    "answer": "avons vu",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "sommes vu": "Voir (to see) uses avoir (to have) as its helper word, not être (to be).",
+      "avons voir": "After avoir, you need the past form vu, not the infinitive voir (to see).",
+      "avons voyé": "The past form of voir (to see) is vu, not a -é form like voyé."
+    },
+    "hint": "Work out which helper word goes with voir (to see), then use the past form of voir.",
+    "explanation": "Voir (to see) takes avoir, and its past form is vu: nous avons vu means we saw or we have seen. Check the helper word first, then the past form.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-001-003",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-001",
+    "variant_group": "A2-GRM-001-v3",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "I finished my homework.",
+    "answer": "J'ai fini mes devoirs.",
+    "acceptable_alternatives": [
+      "J'ai terminé mes devoirs."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Use j'ai (I have) with the past form of finir (to finish).",
+    "explanation": "Use j'ai (I have) plus the past form of finir (to finish), which is fini. Mes devoirs means my homework.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-001-004",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-001",
+    "variant_group": "A2-GRM-001-v4",
+    "format": "error_correction",
+    "instruction": "Correct the mistake.",
+    "prompt": "Hier, j'ai manger une pomme.",
+    "answer": "Hier, j'ai mangé une pomme.",
+    "acceptable_alternatives": [
+      "Hier j'ai mangé une pomme."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Look at the verb that comes after j'ai. After avoir, it needs its past form, which for -er verbs ends in a specific letter.",
+    "explanation": "After avoir (to have), the verb must be in its past form, not the plain infinitive. For -er verbs such as manger (to eat), that form ends in -é.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-002-001",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-002",
+    "variant_group": "A2-GRM-002-v1",
+    "format": "fill_blank",
+    "instruction": "Fill the gap.",
+    "prompt": "Hier, Sophie ___ allée au marché.",
+    "answer": "est",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Aller (to go) uses être (to be) as its helper word, and Sophie is a woman, so pick the matching form of être for 'she is'.",
+    "explanation": "Aller (to go) uses être (to be) as its helper word, so the sentence means she went. The -ée ending on allée matches Sophie being a woman.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-002-002",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-002",
+    "variant_group": "A2-GRM-002-v2",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Mes parents ___ partis à huit heures.",
+    "choices": [
+      "sont",
+      "ont",
+      "est"
+    ],
+    "answer": "sont",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "ont": "Partir (to leave) uses être (to be) as its helper word, not avoir (to have).",
+      "est": "Mes parents means more than one person, so the helper word needs the plural form."
+    },
+    "hint": "Partir (to leave) is a verb of going away, so it takes être. Think about which form of être fits more than one person.",
+    "explanation": "Partir (to leave) takes être, so use sont (they are) with the past form partis: mes parents sont partis. The -s on partis shows there is more than one person.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-002-003",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-002",
+    "variant_group": "A2-GRM-002-v3",
+    "format": "error_correction",
+    "instruction": "Correct the mistake.",
+    "prompt": "Marie est arrivé à midi.",
+    "answer": "Marie est arrivée à midi.",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Marie is a woman. Check whether the past form needs an extra ending for a woman.",
+    "explanation": "Arriver (to arrive) takes être, and when the person is a woman the past form gets an extra -e. So Marie is arrivée.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-002-004",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-002",
+    "variant_group": "A2-GRM-002-v4",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "My grandmother came back yesterday.",
+    "answer": "Ma grand-mère est rentrée hier.",
+    "acceptable_alternatives": [
+      "Ma grand-mère est revenue hier."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Rentrer (to go back home) takes être. Your grandmother is a woman, so the past form needs the ending for a woman.",
+    "explanation": "Rentrer (to go back home) takes être, so the past form must match a woman, which adds an -e. Revenir (to come back) also works in this sentence.",
+    "difficulty": 3,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-004-001",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-004",
+    "variant_group": "A2-GRM-004-v1",
+    "format": "fill_blank",
+    "instruction": "Fill the gap.",
+    "prompt": "Quand Paul était petit, il ___ au foot.",
+    "answer": "jouait",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "The sentence describes a habit from childhood, so use the form of jouer (to play) that means 'used to' for il (he).",
+    "explanation": "The 'used to' past form describes what someone regularly did. For il (he) with jouer (to play), it is jouait, meaning he used to play.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-004-002",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-004",
+    "variant_group": "A2-GRM-004-v2",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Tous les étés, nous ___ à la mer.",
+    "choices": [
+      "allions",
+      "sommes allés",
+      "allons"
+    ],
+    "answer": "allions",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "sommes allés": "That form is for one finished trip, but this sentence describes a habit that repeated every summer.",
+      "allons": "Allons is the present form, meaning we go right now, not a habit from the past."
+    },
+    "hint": "Tous les étés means every summer, so this describes a habit. Use the 'used to' form of aller (to go) for nous (we).",
+    "explanation": "The 'used to' past form describes things that happened regularly. Nous allions means we used to go, or we would go, every summer.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-004-003",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-004",
+    "variant_group": "A2-GRM-004-v3",
+    "format": "error_correction",
+    "instruction": "Correct the mistake.",
+    "prompt": "Autrefois, nous habitons à Lyon.",
+    "answer": "Autrefois, nous habitions à Lyon.",
+    "acceptable_alternatives": [
+      "Autrefois nous habitions à Lyon."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Autrefois means in the past, so the verb needs the 'used to' form for nous (we), not the present form.",
+    "explanation": "Autrefois (in the past) tells you to use the 'used to' form. For nous (we) with habiter (to live), that is habitions, not habitons.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-004-004",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-004",
+    "variant_group": "A2-GRM-004-v4",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "The weather was cold in the mountains.",
+    "answer": "Il faisait froid en montagne.",
+    "acceptable_alternatives": [
+      "Il faisait froid à la montagne.",
+      "Il faisait froid dans les montagnes."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Describing the weather in the past uses faire (to make, here to be) with il (it) in its 'used to' form.",
+    "explanation": "The weather in the past is described with faire: il faisait means it was (weather). Il faisait froid means it was cold.",
+    "difficulty": 3,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-005-001",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-005",
+    "variant_group": "A2-GRM-005-v1",
+    "format": "fill_blank",
+    "instruction": "Fill the gap.",
+    "prompt": "Tu prends le bus ? Oui, je ___ prends.",
+    "answer": "le",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Replace the bus with a short word that means it and goes just before the verb prends.",
+    "explanation": "Le stands in for a masculine thing such as the bus, and it goes right before the verb: je le prends means I take it.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-005-002",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-005",
+    "variant_group": "A2-GRM-005-v2",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Tu écris à ta sœur ? Oui, je ___ écris souvent.",
+    "choices": [
+      "lui",
+      "la",
+      "leur"
+    ],
+    "answer": "lui",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "la": "La stands for a thing or person being acted on directly, but writing to someone needs a word meaning to her.",
+      "leur": "Leur means to them, so it fits a group of people, not one sister."
+    },
+    "hint": "Your sister is one person, and you need a short word before the verb that means to her.",
+    "explanation": "Écrire à (to write to) someone uses lui (to him or to her) before the verb: je lui écris means I write to her. Leur is used for to them.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-005-003",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-005",
+    "variant_group": "A2-GRM-005-v3",
+    "format": "sentence_order",
+    "instruction": "Put the words in order.",
+    "prompt": "I see it tomorrow.",
+    "tokens": [
+      "le",
+      "vois",
+      "Je",
+      "demain."
+    ],
+    "answer": "Je le vois demain.",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "The short word for it goes before the verb, not after it.",
+    "explanation": "Short words such as le go in front of the verb, so je le vois means I see it. The time word demain (tomorrow) goes at the end.",
+    "difficulty": 3,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-GRM-005-004",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-GRM-005",
+    "variant_group": "A2-GRM-005-v4",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "I'm writing to them.",
+    "answer": "Je leur écris.",
+    "acceptable_alternatives": [
+      "Je suis en train de leur écrire."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Put the short word for to them before the verb écrire (to write), using je (I).",
+    "explanation": "Leur means to them and goes before the verb: je leur écris means I write to them. Je suis en train de leur écrire is a longer way to say the same thing.",
+    "difficulty": 3,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-VOC-003-001",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-VOC-003",
+    "variant_group": "A2-VOC-003-v1",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Which sentence means 'I have a headache'?",
+    "choices": [
+      "J'ai mal à la tête.",
+      "J'ai mal au tête.",
+      "J'ai mal à la gorge."
+    ],
+    "answer": "J'ai mal à la tête.",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "J'ai mal au tête.": "Tête goes with à la, as in la tête, so au is the wrong word here.",
+      "J'ai mal à la gorge.": "That means I have a sore throat, not a headache."
+    },
+    "hint": "Find the sentence that names the part of the body above your neck, where your brain is.",
+    "explanation": "J'ai mal à la tête means my head hurts. Use à la with la words such as la tête (the head).",
+    "difficulty": 1,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-VOC-003-002",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-VOC-003",
+    "variant_group": "A2-VOC-003-v2",
+    "format": "translate_fr_en",
+    "instruction": "Translate into English.",
+    "prompt": "J'ai mal au dos.",
+    "answer": "I have a backache.",
+    "acceptable_alternatives": [
+      "I've got a backache.",
+      "I have back pain.",
+      "I've got back pain.",
+      "My back hurts."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Dos is the part of your body behind your chest, and mal means pain or an ache.",
+    "explanation": "Mal au dos means pain in the back. Au is the form of à used with le words, and le dos is the back.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-VOC-003-003",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-VOC-003",
+    "variant_group": "A2-VOC-003-v3",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "Where is the pharmacy?",
+    "answer": "Où est la pharmacie ?",
+    "acceptable_alternatives": [
+      "Où se trouve la pharmacie ?"
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Start with où (where), then use the form of être (to be) that fits one place.",
+    "explanation": "Où est means where is. For a single place such as la pharmacie (the pharmacy), use est (is).",
+    "difficulty": 1,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-VOC-003-004",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-VOC-003",
+    "variant_group": "A2-VOC-003-v4",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "My foot hurts.",
+    "answer": "J'ai mal au pied.",
+    "acceptable_alternatives": [
+      "Mon pied me fait mal."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Use j'ai mal for hurts. Pied is a le word, so pick the short form of à that goes with le.",
+    "explanation": "Mal au pied means pain in the foot. Au joins à and le, and is used before le words such as le pied (the foot).",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-REA-003-001",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-REA-003",
+    "variant_group": "A2-REA-003-v1",
+    "format": "reading_comprehension",
+    "instruction": "Choose the correct answer.",
+    "passage": "Salut Léa,\nJe suis en vacances à Nice depuis lundi. Il fait très beau et la mer est chaude. Demain, je vais visiter le musée avec Marc. Samedi, je rentre à Lille.\nÀ bientôt,\nJulie",
+    "prompt": "Where is Julie at the moment?",
+    "choices": [
+      "In Nice",
+      "In Lille",
+      "At the museum",
+      "At Marc's house"
+    ],
+    "answer": "In Nice",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "In Lille": "Lille is where she goes back to on Saturday, not where she is now.",
+      "At the museum": "She plans to visit the museum tomorrow, so she is not there yet.",
+      "At Marc's house": "The email says she will visit the museum with Marc, not that she is at his house."
+    },
+    "hint": "Read the first lines of the email, where Julie says where she has been since Monday.",
+    "explanation": "Julie says she has been on holiday in Nice since Monday. Depuis means since, so it tells you she is there now.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-REA-003-002",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-REA-003",
+    "variant_group": "A2-REA-003-v2",
+    "format": "reading_comprehension",
+    "instruction": "Choose the correct answer.",
+    "passage": "Salut Léa,\nJe suis en vacances à Nice depuis lundi. Il fait très beau et la mer est chaude. Demain, je vais visiter le musée avec Marc. Samedi, je rentre à Lille.\nÀ bientôt,\nJulie",
+    "prompt": "What does Julie plan to do on Saturday?",
+    "choices": [
+      "Visit the museum",
+      "Go back to Lille",
+      "Stay in Nice",
+      "Go to the beach"
+    ],
+    "answer": "Go back to Lille",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "Visit the museum": "She plans to visit the museum tomorrow, not on Saturday.",
+      "Stay in Nice": "She says she is going back to Lille on Saturday.",
+      "Go to the beach": "The email mentions the sea, but it does not say she plans to go there on Saturday."
+    },
+    "hint": "Look at the sentence that begins with Samedi, which means Saturday.",
+    "explanation": "Samedi means Saturday, and Julie says she goes back to Lille then. Rentrer means to go back home.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-REA-003-003",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-REA-003",
+    "variant_group": "A2-REA-003-v3",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "passage": "Salut Anna,\nCe week-end, je vais déménager. Mon frère m'aide, et nous avons loué une camionnette. Le déménagement commence samedi matin. Après, je vais dormir chez mes parents.\nBises,\nThomas",
+    "prompt": "When does the move start?",
+    "choices": [
+      "On Saturday morning",
+      "On Sunday",
+      "On Friday evening"
+    ],
+    "answer": "On Saturday morning",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "On Sunday": "The email does not give Sunday as the start of the move.",
+      "On Friday evening": "The email does not mention Friday; the move starts on Saturday morning."
+    },
+    "hint": "Find the sentence that gives the day and time for le déménagement, which means the move.",
+    "explanation": "Le déménagement means the move. The email says it starts on Saturday morning.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  },
+  {
+    "id": "Q-A2-REA-003-004",
+    "version": 1,
+    "level": "A2",
+    "objective_id": "FR-A2-REA-003",
+    "variant_group": "A2-REA-003-v4",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "passage": "Salut Anna,\nCe week-end, je vais déménager. Mon frère m'aide, et nous avons loué une camionnette. Le déménagement commence samedi matin. Après, je vais dormir chez mes parents.\nBises,\nThomas",
+    "prompt": "Where will Thomas sleep afterwards?",
+    "choices": [
+      "At his parents' house",
+      "In a van",
+      "At his brother's flat"
+    ],
+    "answer": "At his parents' house",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "In a van": "The van is for moving things, and the email does not say he sleeps in it.",
+      "At his brother's flat": "His brother is helping with the move, but the email says he sleeps at his parents' house."
+    },
+    "hint": "Look at the sentence that begins with Après, which means afterwards.",
+    "explanation": "Chez mes parents means at my parents' house. The email says Thomas goes there to sleep after the move.",
+    "difficulty": 2,
+    "status": "generated",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B002",
+      "date": "2026-10-31"
+    }
+  }
+]
