@@ -1,12 +1,12 @@
 // Runs the answer checker against every real question in content/ so data and checker stay consistent.
 import { describe, it, expect } from 'vitest';
-import { readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { checkAnswer } from './check';
 import { DEFAULT_SETTINGS, type Question } from './types';
 
 const load = (dir: string): Question[] =>
-  readdirSync(dir).filter((f: string) => f.endsWith('.json')).flatMap((f: string) => JSON.parse(readFileSync(join(dir, f), 'utf8')));
+  !existsSync(dir) ? [] : readdirSync(dir).filter((f: string) => f.endsWith('.json')).flatMap((f: string) => JSON.parse(readFileSync(join(dir, f), 'utf8')));
 const questions = [...load('content/candidates'), ...load('content/questions')];
 
 describe('real question bank', () => {

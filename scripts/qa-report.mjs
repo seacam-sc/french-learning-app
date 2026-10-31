@@ -1,11 +1,11 @@
 // Writes content/QA_REPORT.md: counts by status, level, format; flags; validator result.
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { checkQuestions } from './validate-questions.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
-const load = (d) => readdirSync(join(root, d)).filter((f) => f.endsWith('.json')).flatMap((f) => JSON.parse(readFileSync(join(root, d, f))));
+const load = (d) => !existsSync(join(root, d)) ? [] : readdirSync(join(root, d)).filter((f) => f.endsWith('.json')).flatMap((f) => JSON.parse(readFileSync(join(root, d, f))));
 const qs = [...load('content/candidates'), ...load('content/questions')];
 const objectives = JSON.parse(readFileSync(join(root, 'curriculum/objectives.json')));
 const { errors, warnings } = checkQuestions(qs, objectives);

@@ -1,7 +1,7 @@
 // Applies decisions from a filled-in review sheet to content/candidates, then moves
 // approved questions into content/questions/<level>.json.
 // Usage: node scripts/apply-review.mjs content/review/sheet-001.md
-import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseDecisions, applyDecision } from './review-lib.mjs';
@@ -34,6 +34,7 @@ for (const f of readdirSync(candDir).filter((x) => x.endsWith('.json'))) {
   if (changed || keep.length !== qs.length) writeFileSync(path, JSON.stringify(keep, null, 2) + '\n');
 }
 
+mkdirSync(bankDir, { recursive: true });
 for (const level of ['A1', 'A2', 'B1', 'B2']) {
   const add = approved.filter((q) => q.level === level);
   if (!add.length) continue;
