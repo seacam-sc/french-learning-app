@@ -1,9 +1,7 @@
 /// <reference types="vite/client" />
 import { render } from 'preact';
-
-function App() {
-  return <main><p>French Practice — scaffold</p></main>;
-}
+import { App } from './App';
+import './styles.css';
 
 render(<App />, document.getElementById('app')!);
 
