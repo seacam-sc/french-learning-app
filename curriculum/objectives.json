@@ -1,0 +1,3938 @@
+[
+  {
+    "id": "FR-A1-GRM-001",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Être and avoir (to be, to have)",
+    "description": "Say who or what you are and what you have, for example 'Je suis anglais' (I am English) and 'J'ai un chien' (I have a dog).",
+    "examples": [
+      "Je suis anglais. = I am English.",
+      "J'ai un chien. = I have a dog."
+    ],
+    "prerequisites": [],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-002",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Regular -er verbs, present",
+    "description": "Talk about what you do regularly, using the biggest family of French action words, for example 'je parle français' (I speak French).",
+    "terms_introduced": [
+      {
+        "term": "-er verbs",
+        "plain_explanation": "The biggest family of French action words. Their dictionary form ends in -er, like parler (to speak), and the ending changes to match who is doing the action."
+      }
+    ],
+    "examples": [
+      "Je parle français. = I speak French.",
+      "Nous habitons à Lyon. = We live in Lyon."
+    ],
+    "prerequisites": [],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "error_correction",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-003",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Go, do, want, can (common irregular verbs)",
+    "description": "Say where you are going, what you do or make, and what you want or can do, using four very common verbs that do not follow the usual pattern.",
+    "terms_introduced": [
+      {
+        "term": "irregular verbs",
+        "plain_explanation": "Common action words that change shape in unpredictable ways, so they are learned by heart, like aller (to go)."
+      }
+    ],
+    "examples": [
+      "Je vais à Paris. = I'm going to Paris.",
+      "Je veux un café. = I want a coffee.",
+      "Tu peux m'aider ? = Can you help me?"
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-004",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Masculine and feminine nouns, un/une, le/la",
+    "description": "Know whether a French thing-word is masculine or feminine, and use the right 'the' (le, la) and 'a' (un, une) in front of it, for example 'le livre' (the book) and 'une table' (a table).",
+    "terms_introduced": [
+      {
+        "term": "noun",
+        "plain_explanation": "A word for a thing, person or place, like 'book', 'teacher' or 'town'."
+      },
+      {
+        "term": "masculine and feminine",
+        "plain_explanation": "French sorts every noun into one of two groups. The words around it have to match the group, so it is 'un livre' but 'une table'."
+      },
+      {
+        "term": "article",
+        "plain_explanation": "The small word 'the' or 'a' that comes before a noun, such as le, la, un or une."
+      }
+    ],
+    "examples": [
+      "le livre = the book",
+      "une table = a table"
+    ],
+    "prerequisites": [],
+    "question_types": [
+      "mcq",
+      "fill_blank"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-005",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Plurals: the books, some cats",
+    "description": "Talk about more than one thing or person, for example 'les livres' (the books) and 'des chats' (some cats).",
+    "terms_introduced": [
+      {
+        "term": "plural",
+        "plain_explanation": "The form of a word for more than one thing. In writing it usually ends in -s, but you often can't hear the difference."
+      }
+    ],
+    "examples": [
+      "les livres = the books",
+      "des chats = some cats"
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-004"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-006",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Describing words: agreement and position",
+    "description": "Describe people and things (tall, small, red, happy) and make the describing word match the thing it describes, for example 'une voiture rouge' (a red car).",
+    "terms_introduced": [
+      {
+        "term": "adjective",
+        "plain_explanation": "A describing word, like 'red', 'tall' or 'happy'."
+      },
+      {
+        "term": "agreement",
+        "plain_explanation": "Changing a word's ending so it matches the person or thing it goes with, e.g. petit (small) for a man and petite for a woman."
+      }
+    ],
+    "examples": [
+      "Il est grand. = He is tall.",
+      "Elle est petite. = She is small."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001",
+      "FR-A1-GRM-004"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "error_correction",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-007",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Saying 'not' with ne … pas",
+    "description": "Make a sentence negative (saying not) by wrapping the action word in ne ... pas, for example 'je ne parle pas' (I don't speak).",
+    "terms_introduced": [
+      {
+        "term": "ne … pas",
+        "plain_explanation": "The two-part way to say 'not' in French: ne goes before the verb and pas goes after it."
+      }
+    ],
+    "examples": [
+      "Je ne mange pas. = I'm not eating.",
+      "Je ne suis pas fatigué. = I'm not tired."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001",
+      "FR-A1-GRM-002"
+    ],
+    "question_types": [
+      "fill_blank",
+      "error_correction",
+      "translate_en_fr",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-008",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Yes/no questions: est-ce que and rising voice",
+    "description": "Ask questions that can be answered yes or no, either by starting with 'est-ce que' or by raising your voice at the end, for example 'Est-ce que tu parles anglais ?' (Do you speak English?).",
+    "terms_introduced": [
+      {
+        "term": "intonation",
+        "plain_explanation": "The rise and fall of your voice. In French you can turn a statement into a question just by raising your voice at the end."
+      }
+    ],
+    "examples": [
+      "Est-ce que tu parles anglais ? = Do you speak English?",
+      "Tu parles anglais ? = You speak English?"
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001"
+    ],
+    "question_types": [
+      "mcq",
+      "sentence_order",
+      "fill_blank",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-009",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Question words: where, when, how, who, what",
+    "description": "Ask 'where', 'when', 'how', 'how much', 'who' and 'what' questions, for example 'Où est la gare ?' (Where is the station?).",
+    "examples": [
+      "Où est la gare ? = Where is the station?",
+      "Combien ça coûte ? = How much does it cost?"
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-008"
+    ],
+    "question_types": [
+      "mcq",
+      "sentence_order",
+      "translate_en_fr",
+      "fill_blank"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-010",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Possessives: my, your, his/her",
+    "description": "Say whose something is, for example 'mon frère' (my brother), 'ma sœur' (my sister) and 'mes amis' (my friends).",
+    "terms_introduced": [
+      {
+        "term": "possessive",
+        "plain_explanation": "A small word that shows who owns or is connected to something, such as my, your or his."
+      }
+    ],
+    "examples": [
+      "mon frère = my brother",
+      "ma sœur = my sister"
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-004",
+      "FR-A1-GRM-005"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-011",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Places with à and de; il y a",
+    "description": "Say where you are going and where you come from, and say that something is there, for example 'je vais au cinéma' (I'm going to the cinema) and 'il y a un café' (there is a café).",
+    "terms_introduced": [
+      {
+        "term": "preposition",
+        "plain_explanation": "A small word such as 'in', 'to' or 'from' that links an action or thing to a place."
+      },
+      {
+        "term": "contraction",
+        "plain_explanation": "Two small words joined together, e.g. à + le becomes au and de + le becomes du."
+      }
+    ],
+    "examples": [
+      "Je viens du Canada. = I come from Canada.",
+      "Il y a un café ici. = There is a café here."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-003",
+      "FR-A1-GRM-004"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-GRM-012",
+    "version": 1,
+    "level": "A1",
+    "domain": "GRM",
+    "skill": "Near future: going to do something",
+    "description": "Talk about what you are going to do soon, using 'aller' (to go) followed by another verb, for example 'je vais manger' (I'm going to eat).",
+    "terms_introduced": [
+      {
+        "term": "infinitive",
+        "plain_explanation": "The basic 'to ...' form of a verb, like manger (to eat) or parler (to speak)."
+      }
+    ],
+    "examples": [
+      "Je vais manger. = I'm going to eat.",
+      "Nous allons partir demain. = We're going to leave tomorrow."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-003"
+    ],
+    "question_types": [
+      "sentence_order",
+      "fill_blank",
+      "translate_en_fr",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A1-LIS-001",
+    "version": 1,
+    "level": "A1",
+    "domain": "LIS",
+    "skill": "Numbers, times and prices spoken aloud",
+    "description": "Understand numbers, prices and times when someone speaks slowly and clearly to you, for example at a shop or a station.",
+    "examples": [
+      "Ça fait douze euros. = That's twelve euros."
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-001",
+      "FR-A1-VOC-002"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF A1; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-LIS-002",
+    "version": 1,
+    "level": "A1",
+    "domain": "LIS",
+    "skill": "Greetings and simple questions",
+    "description": "Understand simple greetings and short everyday questions when people speak slowly and clearly.",
+    "examples": [
+      "Comment ça va ? = How are you?"
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-008"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-LIS-003",
+    "version": 1,
+    "level": "A1",
+    "domain": "LIS",
+    "skill": "Short recordings about people",
+    "description": "Follow the main idea of a short, slow recording about someone's family, job or home.",
+    "examples": [
+      "Elle habite à Paris. = She lives in Paris."
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-003"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-PRA-001",
+    "version": 1,
+    "level": "A1",
+    "domain": "PRA",
+    "skill": "Greetings and polite forms",
+    "description": "Greet people politely, say please, thank you and goodbye, and choose between 'tu' and 'vous' for 'you'.",
+    "terms_introduced": [
+      {
+        "term": "tu / vous",
+        "plain_explanation": "Two words for 'you'. Use tu with friends, family and children; use vous with strangers, older people and in formal situations."
+      }
+    ],
+    "examples": [
+      "Bonjour, madame. = Hello, madam.",
+      "Merci beaucoup ! = Thank you very much!"
+    ],
+    "prerequisites": [],
+    "question_types": [
+      "mcq",
+      "sentence_order",
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-PRA-002",
+    "version": 1,
+    "level": "A1",
+    "domain": "PRA",
+    "skill": "Buying food at a market or bakery",
+    "description": "Buy food by asking for what you want and how much, and understand the answer, for example 'Je voudrais un kilo de pommes' (I'd like a kilo of apples).",
+    "terms_introduced": [
+      {
+        "term": "je voudrais",
+        "plain_explanation": "A polite ready-made phrase meaning 'I would like'. Learn it as a whole phrase."
+      }
+    ],
+    "examples": [
+      "Je voudrais un kilo de pommes, s'il vous plaît. = I'd like a kilo of apples, please.",
+      "Ça fait cinq euros. = That's five euros."
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-004",
+      "FR-A1-VOC-001"
+    ],
+    "question_types": [
+      "sentence_order",
+      "spoken_response",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Transactions to obtain goods and services"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF A1; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-PRA-003",
+    "version": 1,
+    "level": "A1",
+    "domain": "PRA",
+    "skill": "Asking for directions",
+    "description": "Ask where a place is and understand simple directions, for example 'Où est la gare ?' (Where is the station?).",
+    "examples": [
+      "Où est la gare ? = Where is the station?",
+      "C'est à droite. = It's on the right."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-009",
+      "FR-A1-GRM-011"
+    ],
+    "question_types": [
+      "spoken_response",
+      "mcq",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-REA-001",
+    "version": 1,
+    "level": "A1",
+    "domain": "REA",
+    "skill": "Signs and notices in public",
+    "description": "Understand short signs and notices you see in public, such as 'entrée' (entrance), 'sortie' (exit), 'fermé' (closed) and prices.",
+    "examples": [
+      "Entrée = Entrance",
+      "Fermé = Closed"
+    ],
+    "prerequisites": [],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Reading for orientation"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF A1; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-REA-002",
+    "version": 1,
+    "level": "A1",
+    "domain": "REA",
+    "skill": "Short personal messages",
+    "description": "Understand short personal messages and notes, such as a text saying when and where to meet.",
+    "examples": [
+      "On se voit à huit heures ? = Shall we meet at eight?"
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-002"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Reading correspondence"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF A1; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-REA-003",
+    "version": 1,
+    "level": "A1",
+    "domain": "REA",
+    "skill": "Simple everyday texts",
+    "description": "Understand a simple text about everyday life, such as a short description of a person or a flat.",
+    "examples": [
+      "Je m'appelle Julie. J'habite à Lille. = My name is Julie. I live in Lille."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001",
+      "FR-A1-GRM-002"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall reading comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-SPK-001",
+    "version": 1,
+    "level": "A1",
+    "domain": "SPK",
+    "skill": "Introducing yourself",
+    "description": "Introduce yourself by saying your name, age, nationality and where you live.",
+    "examples": [
+      "Je suis Anna et j'ai vingt ans. = I'm Anna and I'm twenty."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001",
+      "FR-A1-VOC-001"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken production"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF A1; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-SPK-002",
+    "version": 1,
+    "level": "A1",
+    "domain": "SPK",
+    "skill": "Likes and dislikes",
+    "description": "Say what you like and don't like, in simple sentences.",
+    "examples": [
+      "J'aime le café. = I like coffee.",
+      "Je n'aime pas le sport. = I don't like sport."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-007",
+      "FR-A1-GRM-004"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-SPK-003",
+    "version": 1,
+    "level": "A1",
+    "domain": "SPK",
+    "skill": "Answering questions about yourself",
+    "description": "Answer simple questions about your family, home and daily routine, using short sentences.",
+    "examples": [
+      "J'ai une sœur. = I have a sister."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-008",
+      "FR-A1-VOC-003"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-VOC-001",
+    "version": 1,
+    "level": "A1",
+    "domain": "VOC",
+    "skill": "Numbers 0 to 100",
+    "description": "Say and understand numbers from zero to a hundred, including prices, ages and phone numbers.",
+    "examples": [
+      "Il a vingt-cinq ans. = He is twenty-five.",
+      "soixante-dix = seventy"
+    ],
+    "prerequisites": [],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "fill_blank"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-VOC-002",
+    "version": 1,
+    "level": "A1",
+    "domain": "VOC",
+    "skill": "Telling the time and dates",
+    "description": "Tell the time, name the days of the week and months, and give today's date.",
+    "examples": [
+      "Il est trois heures. = It's three o'clock.",
+      "Nous sommes lundi. = It's Monday."
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-001"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_en_fr",
+      "fill_blank"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-VOC-003",
+    "version": 1,
+    "level": "A1",
+    "domain": "VOC",
+    "skill": "Family members",
+    "description": "Name the members of your family and say who is who, such as mother, father, brother and sister.",
+    "examples": [
+      "ma mère = my mother",
+      "mon père = my father"
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-010"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-VOC-004",
+    "version": 1,
+    "level": "A1",
+    "domain": "VOC",
+    "skill": "Shopping and prices",
+    "description": "Name common food and household things you buy, and ask how much they cost.",
+    "examples": [
+      "un kilo de pommes = a kilo of apples",
+      "Ça coûte deux euros. = It costs two euros."
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-001"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_en_fr",
+      "translate_fr_en"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-VOC-005",
+    "version": 1,
+    "level": "A1",
+    "domain": "VOC",
+    "skill": "Home and rooms",
+    "description": "Name the rooms and furniture in a home, such as kitchen, bedroom and table.",
+    "examples": [
+      "la cuisine = the kitchen",
+      "la chambre = the bedroom"
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-004"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-WRI-001",
+    "version": 1,
+    "level": "A1",
+    "domain": "WRI",
+    "skill": "Filling in a simple form",
+    "description": "Fill in a simple form with your name, address, age, nationality and phone number.",
+    "examples": [
+      "Date de naissance = Date of birth"
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-001"
+    ],
+    "question_types": [
+      "translate_en_fr",
+      "extended_writing"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Notes, messages and forms"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF A1; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-WRI-002",
+    "version": 1,
+    "level": "A1",
+    "domain": "WRI",
+    "skill": "Short message about yourself",
+    "description": "Write a short postcard or message of three or four simple sentences saying who you are and where you live.",
+    "examples": [
+      "J'habite à Londres. = I live in London."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-002",
+      "FR-A1-GRM-010"
+    ],
+    "question_types": [
+      "extended_writing",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall written production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A1-WRI-003",
+    "version": 1,
+    "level": "A1",
+    "domain": "WRI",
+    "skill": "Daily routine in writing",
+    "description": "Write a few simple sentences about what you do on a normal day, such as what you eat and when you work.",
+    "examples": [
+      "Je mange du pain le matin. = I eat bread in the morning."
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-002",
+      "FR-A1-GRM-002"
+    ],
+    "question_types": [
+      "extended_writing",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall written production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-GRM-001",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Past actions with avoir (passé composé)",
+    "description": "Say what you did or what happened, using the usual past form with 'avoir' (to have), for example 'j'ai mangé' (I ate).",
+    "terms_introduced": [
+      {
+        "term": "passé composé",
+        "plain_explanation": "The usual way to say something happened and finished in the past, e.g. 'j'ai mangé' = I ate / I have eaten."
+      },
+      {
+        "term": "past participle",
+        "plain_explanation": "The 'done' form of a verb used in the past, e.g. mangé (eaten) or fini (finished)."
+      }
+    ],
+    "examples": [
+      "J'ai mangé une pomme. = I ate an apple.",
+      "Hier, j'ai travaillé. = Yesterday, I worked."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001",
+      "FR-A1-GRM-002"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-002",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Past trips and changes with être",
+    "description": "Describe past trips and changes, such as going, coming, leaving and arriving, using 'être' (to be) with the past form, for example 'je suis allé' (I went).",
+    "terms_introduced": [
+      {
+        "term": "agreement (past forms)",
+        "plain_explanation": "Adding an extra -e or -s to the past form when the person is a woman or there is more than one, e.g. 'elle est allée' (she went)."
+      }
+    ],
+    "examples": [
+      "Je suis allé au cinéma. = I went to the cinema.",
+      "Elle est partie à huit heures. = She left at eight o'clock."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-001"
+    ],
+    "question_types": [
+      "fill_blank",
+      "error_correction",
+      "mcq",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-003",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Daily routine: reflexive verbs",
+    "description": "Talk about getting up, getting washed and your daily routine, using reflexive verbs, for example 'je me lève' (I get up).",
+    "terms_introduced": [
+      {
+        "term": "reflexive verb",
+        "plain_explanation": "An action word done to yourself, with a small word such as me or se in front, e.g. se lever (to get up)."
+      }
+    ],
+    "examples": [
+      "Je me lève à sept heures. = I get up at seven o'clock.",
+      "Il s'appelle Marc. = His name is Marc."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-002"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "sentence_order"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-004",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Past habits and descriptions (imparfait)",
+    "description": "Describe how things used to be, what you used to do regularly, and what the weather or a place was like in the past, for example 'quand j'étais petit' (when I was little).",
+    "terms_introduced": [
+      {
+        "term": "imperfect (imparfait)",
+        "plain_explanation": "A past form for habits, background and descriptions, like 'used to' or 'was doing'. E.g. 'je jouais' = I used to play / I was playing."
+      }
+    ],
+    "examples": [
+      "Quand j'étais petit, je jouais au foot. = When I was little, I played football.",
+      "Il faisait beau. = The weather was nice."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-001"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "error_correction",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-005",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Object pronouns: le/la/les and lui/leur",
+    "description": "Replace a person or thing you have already mentioned with a short word such as 'le', 'la', 'lui' or 'leur', for example 'Je le prends' (I'm taking it) and 'Je lui parle' (I'm speaking to him).",
+    "terms_introduced": [
+      {
+        "term": "pronoun",
+        "plain_explanation": "A short word that stands in for a noun, like it, him or them."
+      },
+      {
+        "term": "direct object",
+        "plain_explanation": "The thing or person an action is done to. In 'I eat the apple', the apple is the direct object; le, la or les stand in for it."
+      },
+      {
+        "term": "indirect object",
+        "plain_explanation": "The person something is said or given to. In 'I speak to him', 'him' is the indirect object; lui or leur stand in for it."
+      }
+    ],
+    "examples": [
+      "Tu prends le train ? Oui, je le prends. = Are you taking the train? Yes, I'm taking it.",
+      "Je leur écris. = I'm writing to them."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-004",
+      "FR-A2-GRM-001"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "sentence_order",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-006",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Saying 'there' and 'some of it': y and en",
+    "description": "Use 'y' for 'there' or 'to it', and 'en' for 'some' or 'of it', to avoid repeating a place or thing, for example 'J'y vais' (I'm going there) and 'J'en veux deux' (I want two of them).",
+    "examples": [
+      "J'y vais demain. = I'm going there tomorrow.",
+      "J'en ai deux. = I have two of them."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-005"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-007",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Comparing things: more, less, as ... as",
+    "description": "Compare things and people: bigger than, less than, as big as, for example 'plus grand que' (bigger than).",
+    "examples": [
+      "Paris est plus grand que Lyon. = Paris is bigger than Lyon.",
+      "Il est aussi grand que son père. = He is as tall as his father."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-006"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-008",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Saying 'never', 'nothing', 'nobody', 'no longer'",
+    "description": "Say 'never', 'nothing', 'nobody' and 'no longer', for example 'je ne fume plus' (I don't smoke anymore).",
+    "examples": [
+      "Je ne fume plus. = I don't smoke anymore.",
+      "Je ne vois personne. = I don't see anybody."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-007"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-009",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Giving instructions and orders (imperative)",
+    "description": "Give instructions, orders, advice and invitations, for example 'Viens !' (Come!) and 'Prenez la deuxième rue' (Take the second street).",
+    "terms_introduced": [
+      {
+        "term": "imperative",
+        "plain_explanation": "The command form of a verb, used to tell someone to do something."
+      }
+    ],
+    "examples": [
+      "Mange ! = Eat!",
+      "Prenez la deuxième rue. = Take the second street."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-002"
+    ],
+    "question_types": [
+      "sentence_order",
+      "fill_blank",
+      "translate_en_fr",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-010",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Some of something: du, de la, des (partitive)",
+    "description": "Say you have, want or don't have 'some' of something you can't count, for example 'je veux du pain' (I want some bread) and 'je n'ai pas de pain' (I don't have any bread).",
+    "terms_introduced": [
+      {
+        "term": "partitive",
+        "plain_explanation": "The 'some' word for things you can't count or measure: du, de la, de l' or des."
+      }
+    ],
+    "examples": [
+      "Je veux du pain. = I want some bread.",
+      "Je n'ai pas de voiture. = I don't have a car."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-004",
+      "FR-A1-GRM-007"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "error_correction",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-011",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Saying 'it is necessary to': il faut",
+    "description": "Say what is necessary or needed, for example 'il faut partir' (we have to leave).",
+    "examples": [
+      "Il faut partir maintenant. = We have to leave now.",
+      "Il faut manger. = You have to eat."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-012"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-GRM-012",
+    "version": 1,
+    "level": "A2",
+    "domain": "GRM",
+    "skill": "Countries and cities: en, au, à",
+    "description": "Say 'in' or 'to' a country or city correctly: 'en France', 'au Canada', 'à Paris'.",
+    "examples": [
+      "Je vais en France. = I'm going to France.",
+      "Elle habite au Canada. = She lives in Canada."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-011"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-A2-LIS-001",
+    "version": 1,
+    "level": "A2",
+    "domain": "LIS",
+    "skill": "Short phone messages",
+    "description": "Understand a short recorded phone message, such as from a doctor's office or a friend, including times and phone numbers.",
+    "examples": [
+      "Rappelez-moi demain. = Call me back tomorrow."
+    ],
+    "prerequisites": [
+      "FR-A1-LIS-001"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF A2; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-LIS-002",
+    "version": 1,
+    "level": "A2",
+    "domain": "LIS",
+    "skill": "Everyday conversations",
+    "description": "Follow the main points of a short conversation between two people about everyday things such as shopping or plans, when they speak clearly.",
+    "examples": [
+      "Tu veux venir avec nous ? = Do you want to come with us?"
+    ],
+    "prerequisites": [
+      "FR-A1-LIS-002"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-LIS-003",
+    "version": 1,
+    "level": "A2",
+    "domain": "LIS",
+    "skill": "Station and airport announcements",
+    "description": "Understand simple announcements at a station or airport, such as platform numbers and short delays.",
+    "examples": [
+      "Le train part du quai numéro trois. = The train leaves from platform three."
+    ],
+    "prerequisites": [
+      "FR-A2-VOC-001"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-PRA-001",
+    "version": 1,
+    "level": "A2",
+    "domain": "PRA",
+    "skill": "Phoning to book a table or appointment",
+    "description": "Phone a restaurant, hotel or clinic to book a table, room or appointment, giving your name and the time you want.",
+    "examples": [
+      "Je voudrais réserver une table pour deux. = I'd like to book a table for two.",
+      "À quel nom ? = In what name?"
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-002",
+      "FR-A1-PRA-002"
+    ],
+    "question_types": [
+      "spoken_response",
+      "sentence_order"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Transactions to obtain goods and services"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF A2; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-PRA-002",
+    "version": 1,
+    "level": "A2",
+    "domain": "PRA",
+    "skill": "Explaining a health problem at the pharmacy",
+    "description": "Explain at a pharmacy or doctor's office what is wrong, such as a headache or a cold, and understand simple advice.",
+    "examples": [
+      "J'ai mal à la gorge. = My throat hurts.",
+      "Prenez ce médicament trois fois par jour. = Take this medicine three times a day."
+    ],
+    "prerequisites": [
+      "FR-A2-VOC-003",
+      "FR-A2-GRM-009"
+    ],
+    "question_types": [
+      "spoken_response",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-PRA-003",
+    "version": 1,
+    "level": "A2",
+    "domain": "PRA",
+    "skill": "Filling in a basic French form",
+    "description": "Understand the main parts of a simple French form, such as name, date of birth and address, and fill it in carefully.",
+    "examples": [
+      "Adresse = Address",
+      "Signature = Signature"
+    ],
+    "prerequisites": [
+      "FR-A1-WRI-001"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "extended_writing"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Notes, messages and forms"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-REA-001",
+    "version": 1,
+    "level": "A2",
+    "domain": "REA",
+    "skill": "Information in leaflets and timetables",
+    "description": "Find key information in timetables, adverts and leaflets, such as opening hours, prices and dates.",
+    "examples": [
+      "Ouvert du lundi au vendredi = Open Monday to Friday"
+    ],
+    "prerequisites": [
+      "FR-A1-REA-001"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Reading for orientation"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF A2; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-REA-002",
+    "version": 1,
+    "level": "A2",
+    "domain": "REA",
+    "skill": "Short news articles and reports",
+    "description": "Understand the main points of a short, simple news article or a description of an event.",
+    "examples": [
+      "Hier, il a plu toute la journée. = Yesterday it rained all day."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-001"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall reading comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-REA-003",
+    "version": 1,
+    "level": "A2",
+    "domain": "REA",
+    "skill": "Personal emails and letters",
+    "description": "Understand a friend's email or letter, including what happened and what they plan to do.",
+    "examples": [
+      "Je vais venir samedi. = I'm coming on Saturday."
+    ],
+    "prerequisites": [
+      "FR-A1-REA-002"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Reading correspondence"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-SPK-001",
+    "version": 1,
+    "level": "A2",
+    "domain": "SPK",
+    "skill": "Talking about past events",
+    "description": "Tell someone briefly what you did last week or on a holiday, in a few linked sentences.",
+    "examples": [
+      "Je suis allé à la mer. = I went to the sea."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-001",
+      "FR-A2-GRM-002"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-SPK-002",
+    "version": 1,
+    "level": "A2",
+    "domain": "SPK",
+    "skill": "Asking for and giving directions",
+    "description": "Ask someone how to get somewhere, and follow or give simple directions such as left, right and straight on.",
+    "examples": [
+      "Tournez à gauche. = Turn left.",
+      "Continuez tout droit. = Go straight on."
+    ],
+    "prerequisites": [
+      "FR-A1-PRA-003",
+      "FR-A2-GRM-009"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-SPK-003",
+    "version": 1,
+    "level": "A2",
+    "domain": "SPK",
+    "skill": "Inviting people and replying",
+    "description": "Invite someone to do something, and accept or politely turn down an invitation.",
+    "examples": [
+      "Tu veux venir au café ? = Do you want to come to the café?",
+      "Désolé, je ne peux pas. = Sorry, I can't."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-003",
+      "FR-A1-GRM-008"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-VOC-001",
+    "version": 1,
+    "level": "A2",
+    "domain": "VOC",
+    "skill": "Travel and transport",
+    "description": "Buy a train or bus ticket, read a timetable and name common ways of travelling and parts of a station.",
+    "examples": [
+      "un billet de train = a train ticket",
+      "le quai = the platform"
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-001"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-VOC-002",
+    "version": 1,
+    "level": "A2",
+    "domain": "VOC",
+    "skill": "Work and jobs",
+    "description": "Name common jobs and workplaces, and say what you do at work.",
+    "examples": [
+      "Je suis infirmière. = I'm a nurse.",
+      "Je travaille dans un bureau. = I work in an office."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-VOC-003",
+    "version": 1,
+    "level": "A2",
+    "domain": "VOC",
+    "skill": "Health and the body",
+    "description": "Name parts of the body and common ailments, and say where it hurts when you visit a pharmacy or doctor.",
+    "examples": [
+      "J'ai mal à la tête. = I have a headache.",
+      "Où est la pharmacie ? = Where is the pharmacy?"
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-VOC-004",
+    "version": 1,
+    "level": "A2",
+    "domain": "VOC",
+    "skill": "School and studies",
+    "description": "Talk about school and studies, such as subjects, exams and timetables.",
+    "examples": [
+      "J'étudie le français. = I study French.",
+      "Je passe un examen demain. = I'm taking an exam tomorrow."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-002"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_en_fr",
+      "translate_fr_en"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-VOC-005",
+    "version": 1,
+    "level": "A2",
+    "domain": "VOC",
+    "skill": "Weather and clothes",
+    "description": "Describe the weather and what you wear, and understand a simple weather forecast.",
+    "examples": [
+      "Il pleut. = It's raining.",
+      "Il fait froid aujourd'hui. = It's cold today."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-001"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau A2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-WRI-001",
+    "version": 1,
+    "level": "A2",
+    "domain": "WRI",
+    "skill": "Email about what you did",
+    "description": "Write a short email to a friend about what you did last weekend, using the past forms.",
+    "examples": [
+      "Samedi, je suis allé au cinéma. = On Saturday, I went to the cinema."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-001",
+      "FR-A2-GRM-002"
+    ],
+    "question_types": [
+      "extended_writing",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall written production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-WRI-002",
+    "version": 1,
+    "level": "A2",
+    "domain": "WRI",
+    "skill": "Cancelling or changing an appointment",
+    "description": "Write a short message to a shop, doctor or friend to cancel or change an appointment and say why.",
+    "examples": [
+      "Je suis désolé, je ne peux pas venir. = I'm sorry, I can't come."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-007",
+      "FR-A1-PRA-001"
+    ],
+    "question_types": [
+      "extended_writing",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Notes, messages and forms"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-A2-WRI-003",
+    "version": 1,
+    "level": "A2",
+    "domain": "WRI",
+    "skill": "Describing a place or person",
+    "description": "Write a short description of a town, a house or a person, saying what it was like before and what it is like now.",
+    "examples": [
+      "La maison était grande. = The house was big."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-004",
+      "FR-A1-GRM-006"
+    ],
+    "question_types": [
+      "extended_writing",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Creative writing"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-ADV-001",
+    "version": 1,
+    "level": "B1",
+    "domain": "ADV",
+    "skill": "Arguing for and against an idea",
+    "description": "Argue for or against an idea, give supporting reasons, and respond when someone raises an objection.",
+    "examples": [
+      "Certes, mais … = Admittedly, but …"
+    ],
+    "prerequisites": [
+      "FR-B1-SPK-001"
+    ],
+    "question_types": [
+      "spoken_response",
+      "extended_writing"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-ADV-002",
+    "version": 1,
+    "level": "B1",
+    "domain": "ADV",
+    "skill": "Choosing formal or informal language",
+    "description": "Choose the right level of politeness for the situation: informal with friends, formal with officials or employers, including the right form of 'you'.",
+    "terms_introduced": [
+      {
+        "term": "register",
+        "plain_explanation": "How formal or casual your language is, from very relaxed with friends to very polite with officials."
+      }
+    ],
+    "examples": [
+      "Tu peux m'aider ? = Can you help me? (informal)",
+      "Pourriez-vous m'aider ? = Could you help me? (formal)"
+    ],
+    "prerequisites": [
+      "FR-A1-PRA-001",
+      "FR-B1-GRM-004"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Sociolinguistic appropriateness"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-GRM-001",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Telling a past story: passé composé and imparfait",
+    "description": "Tell a story from the past, using the past form for what happened and the 'was doing / used to' form for the background, for example 'il pleuvait quand je suis arrivé' (it was raining when I arrived).",
+    "examples": [
+      "Il pleuvait quand je suis arrivé. = It was raining when I arrived.",
+      "Hier, j'ai rencontré mon ami. = Yesterday, I met my friend."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-001",
+      "FR-A2-GRM-004"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "error_correction",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-002",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Earlier past: 'had done'",
+    "description": "Describe something that had already happened before another past event, for example 'j'avais déjà mangé' (I had already eaten).",
+    "terms_introduced": [
+      {
+        "term": "pluperfect (plus-que-parfait)",
+        "plain_explanation": "The 'had done' past form, used for something that happened even earlier than another past event."
+      }
+    ],
+    "examples": [
+      "Quand je suis arrivé, il était déjà parti. = When I arrived, he had already left.",
+      "J'avais déjà mangé. = I had already eaten."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-001"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-003",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Talking about the future: will do",
+    "description": "Talk about what will happen, using the 'will' form of verbs, for example 'je partirai demain' (I will leave tomorrow).",
+    "terms_introduced": [
+      {
+        "term": "future tense (futur simple)",
+        "plain_explanation": "The 'will' form used for plans and predictions, e.g. 'je partirai' = I will leave."
+      }
+    ],
+    "examples": [
+      "Je partirai demain. = I will leave tomorrow.",
+      "Il fera beau ce week-end. = The weather will be nice this weekend."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-012"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-004",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Polite requests and wishes: would",
+    "description": "Make polite requests and say what you would like, for example 'je voudrais' (I would like) and 'pourriez-vous' (could you).",
+    "terms_introduced": [
+      {
+        "term": "conditional (conditionnel)",
+        "plain_explanation": "The 'would' form, used for polite requests, wishes and things that depend on something else, e.g. 'je voudrais' = I would like."
+      }
+    ],
+    "examples": [
+      "Je voudrais un café. = I'd like a coffee.",
+      "Pourriez-vous m'aider ? = Could you help me?"
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-003"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "sentence_completion"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-005",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Imagined situations: if I had ... I would",
+    "description": "Talk about imagined situations and what would follow, for example 'si j'avais le temps, je viendrais' (if I had time, I would come).",
+    "examples": [
+      "Si j'avais le temps, je viendrais. = If I had time, I would come.",
+      "Si tu venais, on pourrait manger ensemble. = If you came, we could eat together."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-004",
+      "FR-A2-GRM-004"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-006",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Joining ideas: who, that, where, of which",
+    "description": "Join two ideas into one sentence using 'qui' (who / which), 'que' (that / which), 'où' (where) and 'dont' (about which / of which), for example 'l'homme qui parle' (the man who is speaking).",
+    "terms_introduced": [
+      {
+        "term": "relative pronoun",
+        "plain_explanation": "A word that joins two parts of a sentence and points back to a noun: qui, que, où, dont."
+      }
+    ],
+    "examples": [
+      "L'homme qui parle est mon oncle. = The man who is speaking is my uncle.",
+      "Le livre que je lis est bon. = The book (that) I'm reading is good."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-004",
+      "FR-A2-GRM-005"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "sentence_order",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-007",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Wishes and needs about others: il faut que, je veux que",
+    "description": "Say what you want or need other people to do, and how you feel about it, for example 'il faut que tu viennes' (you have to come).",
+    "terms_introduced": [
+      {
+        "term": "subjunctive (subjonctif)",
+        "plain_explanation": "A special verb form used after words such as 'il faut que' (it is necessary that), 'je veux que' (I want ... to) and after feelings such as 'je suis content que' (I'm glad that)."
+      }
+    ],
+    "examples": [
+      "Il faut que tu viennes. = You have to come.",
+      "Je veux que tu sois là. = I want you to be there."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-011",
+      "FR-B1-GRM-004"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "error_correction",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-008",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Two small pronouns in one sentence",
+    "description": "Put two small pronouns together in the right order, for example 'Je le lui donne' (I give it to him).",
+    "examples": [
+      "Je le lui donne. = I give it to him.",
+      "Il me le montre. = He shows it to me."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-005",
+      "FR-A2-GRM-006"
+    ],
+    "question_types": [
+      "sentence_order",
+      "fill_blank",
+      "error_correction",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory.",
+    "terms_introduced": [
+      {
+        "term": "pronoun",
+        "plain_explanation": "A small word that stands in for a noun so you don't repeat it, e.g. 'le' in 'je le prends' = I'm taking it."
+      }
+    ]
+  },
+  {
+    "id": "FR-B1-GRM-009",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Reporting what someone said (present)",
+    "description": "Report what someone said, changing the words to fit, for example 'Il dit qu'il est fatigué' (He says he is tired).",
+    "terms_introduced": [
+      {
+        "term": "reported speech",
+        "plain_explanation": "Telling someone what another person said without repeating their exact words, e.g. 'she says she is tired' instead of 'I am tired'."
+      }
+    ],
+    "examples": [
+      "Il dit qu'il est fatigué. = He says he's tired.",
+      "Elle dit qu'elle vient demain. = She says she's coming tomorrow."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-001"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-010",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Doing two things at once: en + -ant",
+    "description": "Say that two things happen at the same time, or how something is done, using 'en' with an -ant form, for example 'en mangeant' (while eating).",
+    "terms_introduced": [
+      {
+        "term": "gerund (en + -ant)",
+        "plain_explanation": "A form made from 'en' and the -ant ending of a verb, meaning 'while doing' or 'by doing'."
+      }
+    ],
+    "examples": [
+      "Il écoute la radio en travaillant. = He listens to the radio while working.",
+      "On apprend en voyageant. = We learn by travelling."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-001"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-011",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Pointing back: celui, celle",
+    "description": "Refer back to a thing or person without repeating the noun, for example 'celui de mon frère' (my brother's one) and 'celle qui est là' (the one who is there).",
+    "terms_introduced": [
+      {
+        "term": "demonstrative pronoun",
+        "plain_explanation": "A word such as 'this one' or 'the one' that points back to something: celui (masculine), celle (feminine), ceux and celles (plural)."
+      }
+    ],
+    "examples": [
+      "Ma voiture est rouge, celle de Marc est bleue. = My car is red, Marc's is blue.",
+      "Celui qui parle est mon professeur. = The one who is speaking is my teacher."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-006"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-GRM-012",
+    "version": 1,
+    "level": "B1",
+    "domain": "GRM",
+    "skill": "Explaining reasons and results",
+    "description": "Explain why something happened and what followed, using 'parce que' (because), 'donc' (so), 'car' (because) and 'alors' (so / then).",
+    "examples": [
+      "Je reste à la maison parce qu'il pleut. = I'm staying home because it's raining.",
+      "Il pleut, donc je prends le bus. = It's raining, so I'm taking the bus."
+    ],
+    "prerequisites": [
+      "FR-A1-GRM-008"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "sentence_order",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B1-LIS-001",
+    "version": 1,
+    "level": "B1",
+    "domain": "LIS",
+    "skill": "Radio news and podcasts",
+    "description": "Follow the main points of a radio news bulletin or podcast on a familiar topic, when the speaker is clear.",
+    "examples": [
+      "Il y a eu une grève hier. = There was a strike yesterday."
+    ],
+    "prerequisites": [
+      "FR-A2-LIS-003"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-LIS-002",
+    "version": 1,
+    "level": "B1",
+    "domain": "LIS",
+    "skill": "Phone calls with a service",
+    "description": "Understand the main information in a phone call with a shop, a doctor's office or a service desk, such as what is available and when.",
+    "examples": [
+      "Le rendez-vous est à quatorze heures. = The appointment is at two o'clock."
+    ],
+    "prerequisites": [
+      "FR-A2-LIS-001"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF B1; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-LIS-003",
+    "version": 1,
+    "level": "B1",
+    "domain": "LIS",
+    "skill": "Interviews and discussions",
+    "description": "Follow a short interview or conversation between two or three people on a familiar subject, and tell who agrees and who disagrees.",
+    "examples": [
+      "Je ne suis pas d'accord. = I don't agree."
+    ],
+    "prerequisites": [
+      "FR-B1-VOC-005"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-PRA-001",
+    "version": 1,
+    "level": "B1",
+    "domain": "PRA",
+    "skill": "Making a complaint in person or by phone",
+    "description": "Explain a problem with a product or service on the phone or in a shop, and ask for a solution or a refund.",
+    "examples": [
+      "Mon colis n'est pas arrivé. = My parcel hasn't arrived."
+    ],
+    "prerequisites": [
+      "FR-A2-PRA-001",
+      "FR-B1-WRI-001"
+    ],
+    "question_types": [
+      "spoken_response",
+      "sentence_order",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Transactions to obtain goods and services"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF B1; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-PRA-002",
+    "version": 1,
+    "level": "B1",
+    "domain": "PRA",
+    "skill": "Booking an appointment at a French office",
+    "description": "Make an appointment at an office such as the CAF, the town hall (mairie) or the prefecture, and briefly explain why you are coming.",
+    "examples": [
+      "Je voudrais prendre rendez-vous. = I'd like to make an appointment."
+    ],
+    "prerequisites": [
+      "FR-A2-PRA-003",
+      "FR-B1-VOC-002"
+    ],
+    "question_types": [
+      "spoken_response",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-REA-001",
+    "version": 1,
+    "level": "B1",
+    "domain": "REA",
+    "skill": "Newspaper articles on familiar topics",
+    "description": "Understand the main ideas in a newspaper article on a familiar topic, such as travel, health or work.",
+    "prerequisites": [
+      "FR-A2-REA-002"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall reading comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-REA-002",
+    "version": 1,
+    "level": "B1",
+    "domain": "REA",
+    "skill": "Formal letters from services",
+    "description": "Understand formal letters from a bank, a council office or an insurance company, including deadlines and what you need to do.",
+    "examples": [
+      "Vous devez répondre avant le 15 mai. = You must reply before 15 May."
+    ],
+    "prerequisites": [
+      "FR-A2-REA-003"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Reading correspondence"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF B1; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-REA-003",
+    "version": 1,
+    "level": "B1",
+    "domain": "REA",
+    "skill": "Opinion pieces and blog posts",
+    "description": "Identify the writer's point of view and the reasons they give in a short opinion piece or blog post.",
+    "examples": [
+      "Selon l'auteur, … = According to the writer, …"
+    ],
+    "prerequisites": [
+      "FR-B1-REA-001"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall reading comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-SPK-001",
+    "version": 1,
+    "level": "B1",
+    "domain": "SPK",
+    "skill": "Giving opinions and reasons in conversation",
+    "description": "Say what you think about a topic and explain why, and respond when others disagree.",
+    "examples": [
+      "Je pense que c'est une bonne idée parce que c'est pratique. = I think it's a good idea because it's practical."
+    ],
+    "prerequisites": [
+      "FR-B1-VOC-005",
+      "FR-B1-GRM-012"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-SPK-002",
+    "version": 1,
+    "level": "B1",
+    "domain": "SPK",
+    "skill": "Describing a past experience",
+    "description": "Tell a short story about a past experience, such as a trip or an accident, in connected sentences.",
+    "examples": [
+      "L'année dernière, je suis allé en Espagne. = Last year, I went to Spain."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-001"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Sustained monologue: describing experience"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-SPK-003",
+    "version": 1,
+    "level": "B1",
+    "domain": "SPK",
+    "skill": "Talking about imagined situations",
+    "description": "Say what you would do in an imagined situation, such as if you won the lottery or had more time.",
+    "examples": [
+      "Si je gagnais, je voyagerais. = If I won, I would travel."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-005"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-VOC-001",
+    "version": 1,
+    "level": "B1",
+    "domain": "VOC",
+    "skill": "Work, careers and job applications",
+    "description": "Talk about jobs, job applications and CVs, including words such as 'un CV' (a CV), 'un entretien' (an interview) and 'un salaire' (a salary).",
+    "examples": [
+      "Je cherche un emploi. = I'm looking for a job.",
+      "J'ai un entretien demain. = I have an interview tomorrow."
+    ],
+    "prerequisites": [
+      "FR-A2-VOC-002"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-VOC-002",
+    "version": 1,
+    "level": "B1",
+    "domain": "VOC",
+    "skill": "Renting a flat",
+    "description": "Talk about renting a flat, including the rent, the deposit and the notice period for leaving.",
+    "examples": [
+      "le loyer = the rent",
+      "la caution = the deposit"
+    ],
+    "prerequisites": [
+      "FR-A1-VOC-005"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-VOC-003",
+    "version": 1,
+    "level": "B1",
+    "domain": "VOC",
+    "skill": "News and society",
+    "description": "Follow and discuss news on everyday topics such as elections, the economy and strikes.",
+    "examples": [
+      "les actualités = the news",
+      "une grève = a strike"
+    ],
+    "prerequisites": [
+      "FR-A2-REA-002"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-VOC-004",
+    "version": 1,
+    "level": "B1",
+    "domain": "VOC",
+    "skill": "Environment and nature",
+    "description": "Talk about the environment, recycling, pollution and climate.",
+    "examples": [
+      "le recyclage = recycling",
+      "la pollution = pollution"
+    ],
+    "prerequisites": [
+      "FR-B1-VOC-003"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "fill_blank"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-VOC-005",
+    "version": 1,
+    "level": "B1",
+    "domain": "VOC",
+    "skill": "Giving an opinion in everyday phrases",
+    "description": "Use everyday phrases to give your opinion, agree or disagree, such as 'à mon avis' (in my opinion) and 'je ne suis pas d'accord' (I don't agree).",
+    "examples": [
+      "À mon avis, c'est une bonne idée. = In my opinion, it's a good idea.",
+      "Je ne suis pas d'accord. = I don't agree."
+    ],
+    "prerequisites": [
+      "FR-A2-SPK-003"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B1 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-WRI-001",
+    "version": 1,
+    "level": "B1",
+    "domain": "WRI",
+    "skill": "Complaint or request email",
+    "description": "Write a polite but firm email to a company or office to make a complaint or ask for a refund, giving the facts and what you want.",
+    "examples": [
+      "Je vous écris pour me plaindre. = I'm writing to complain.",
+      "Je souhaiterais un remboursement. = I would like a refund."
+    ],
+    "prerequisites": [
+      "FR-A2-WRI-002",
+      "FR-B1-GRM-004"
+    ],
+    "question_types": [
+      "extended_writing",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Writing letters"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-WRI-002",
+    "version": 1,
+    "level": "B1",
+    "domain": "WRI",
+    "skill": "Account of past events",
+    "description": "Write a short story or diary entry about something that happened, telling it in the right order.",
+    "examples": [
+      "Il faisait froid quand je suis sorti. = It was cold when I went out."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-001"
+    ],
+    "question_types": [
+      "extended_writing",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Creative writing"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B1-WRI-003",
+    "version": 1,
+    "level": "B1",
+    "domain": "WRI",
+    "skill": "Short opinion paragraph with reasons",
+    "description": "Write a short paragraph giving your opinion on a topic, with two or three reasons for it.",
+    "examples": [
+      "Je pense que les vélos sont utiles car ils sont peu chers. = I think bikes are useful because they're cheap."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-012",
+      "FR-B1-VOC-005"
+    ],
+    "question_types": [
+      "extended_writing",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall written production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-ADV-001",
+    "version": 1,
+    "level": "B2",
+    "domain": "ADV",
+    "skill": "Tone, formality and irony",
+    "description": "Adjust your tone to the situation, polite or direct, formal or informal, and recognise when a text is ironic or sarcastic.",
+    "terms_introduced": [
+      {
+        "term": "irony",
+        "plain_explanation": "Saying something that means the opposite of what the words say, often for humour or to criticise."
+      }
+    ],
+    "examples": [
+      "Super, encore une réunion ! = Great, another meeting! (ironic)"
+    ],
+    "prerequisites": [
+      "FR-B1-ADV-002"
+    ],
+    "question_types": [
+      "mcq",
+      "reading_comprehension",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Sociolinguistic appropriateness"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-ADV-002",
+    "version": 1,
+    "level": "B2",
+    "domain": "ADV",
+    "skill": "Abstract ideas and imagined consequences",
+    "description": "Discuss abstract ideas such as freedom, ethics and identity, and explain what would change under different conditions.",
+    "examples": [
+      "Si la société changeait, les gens vivraient autrement. = If society changed, people would live differently."
+    ],
+    "prerequisites": [
+      "FR-B1-ADV-001",
+      "FR-B1-SPK-003"
+    ],
+    "question_types": [
+      "spoken_response",
+      "extended_writing"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-GRM-001",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Would have done: past conditional and if I had known",
+    "description": "Talk about what would have happened if things had been different, for example 'si j'avais su, je serais venu' (if I had known, I would have come).",
+    "terms_introduced": [
+      {
+        "term": "past conditional (conditionnel passé)",
+        "plain_explanation": "The 'would have done' form, used for things that did not happen in the past."
+      }
+    ],
+    "examples": [
+      "Si j'avais su, je serais venu. = If I had known, I would have come.",
+      "J'aurais aimé venir. = I would have liked to come."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-005",
+      "FR-B1-GRM-002"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-002",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Subjunctive after linking words: bien que, pour que, avant que",
+    "description": "Use the special verb form after linking words such as 'bien que' (although), 'pour que' (so that) and 'avant que' (before), for example 'avant que tu partes' (before you leave).",
+    "terms_introduced": [
+      {
+        "term": "subjunctive (subjonctif)",
+        "plain_explanation": "A special verb form for wished-for or uncertain actions. Here it follows linking words such as 'bien que', 'pour que' and 'avant que'."
+      }
+    ],
+    "examples": [
+      "Je viens pour que tu comprennes. = I'm coming so that you understand.",
+      "Bien qu'il soit fatigué, il travaille. = Although he's tired, he's working."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-007"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "error_correction",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-003",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Subjunctive after doubt and opinion",
+    "description": "Use the special verb form after expressions of doubt or opinion, for example 'je ne pense pas que ce soit possible' (I don't think it's possible).",
+    "examples": [
+      "Je doute qu'il vienne. = I doubt he'll come.",
+      "Je ne pense pas que ce soit vrai. = I don't think that's true."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-007"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "error_correction",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-004",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Looking back: past subjunctive",
+    "description": "Talk about something already done, after expressions of feeling, doubt or necessity, for example 'je suis content que tu sois venu' (I'm glad you came).",
+    "terms_introduced": [
+      {
+        "term": "past subjunctive (subjonctif passé)",
+        "plain_explanation": "The 'have done' form of the special verb form, used after feelings, doubt or necessity about something already done."
+      }
+    ],
+    "examples": [
+      "Je suis content que tu sois venu. = I'm glad you came.",
+      "Il faut que j'aie fini demain. = I have to have finished by tomorrow."
+    ],
+    "prerequisites": [
+      "FR-B2-GRM-003",
+      "FR-A2-GRM-001"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-005",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Passive voice: it was built, it was arrested",
+    "description": "Say what was done to someone or something, without needing to say who did it, for example 'le pont a été construit' (the bridge was built).",
+    "terms_introduced": [
+      {
+        "term": "passive voice",
+        "plain_explanation": "A way of making the thing that is affected the focus of the sentence: 'The bridge was built' rather than 'They built the bridge'."
+      }
+    ],
+    "examples": [
+      "Le pont a été construit en 1990. = The bridge was built in 1990.",
+      "Le voleur a été arrêté. = The thief was arrested."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-002",
+      "FR-A2-GRM-001"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr",
+      "translate_fr_en"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-006",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Reporting the past: tenses move back",
+    "description": "Report what someone said in the past, moving the verb tenses back one step, for example 'Il a dit qu'il était malade' (He said he was ill).",
+    "terms_introduced": [
+      {
+        "term": "tense shift",
+        "plain_explanation": "Moving a verb one step back in time when reporting something said in the past, e.g. 'je suis' becomes 'il était'."
+      }
+    ],
+    "examples": [
+      "Il a dit qu'il était malade. = He said he was ill.",
+      "Elle a dit qu'elle viendrait. = She said she would come."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-009",
+      "FR-B1-GRM-004"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-007",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Which one: lequel and its forms",
+    "description": "Use the right form of 'which one' after a preposition, for example 'la maison dans laquelle j'habite' (the house I live in) and 'les amis avec lesquels je joue' (the friends I play with).",
+    "examples": [
+      "La maison dans laquelle j'habite est petite. = The house I live in is small.",
+      "Les amis avec lesquels je joue. = The friends I play with."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-006"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-008",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Showing contrast: pourtant, malgré, alors que, cependant",
+    "description": "Show contrast and balance in an argument with words such as 'pourtant' (yet), 'cependant' (however), 'alors que' (whereas), 'malgré' (despite) and 'en revanche' (on the other hand).",
+    "examples": [
+      "Il est fatigué, pourtant il continue. = He's tired, yet he carries on.",
+      "Malgré la pluie, nous sommes sortis. = Despite the rain, we went out."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-012"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "sentence_completion",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-009",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Will have done: future perfect",
+    "description": "Talk about something that will already be finished by a point in the future, for example 'j'aurai fini demain' (I will have finished by tomorrow).",
+    "terms_introduced": [
+      {
+        "term": "future perfect (futur antérieur)",
+        "plain_explanation": "The 'will have done' form, used for something finished before a point in the future."
+      }
+    ],
+    "examples": [
+      "Quand tu arriveras, j'aurai fini. = When you arrive, I'll have finished.",
+      "Il sera parti avant midi. = He will have left before noon."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-003",
+      "FR-A2-GRM-001"
+    ],
+    "question_types": [
+      "fill_blank",
+      "mcq",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-010",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Past forms that agree with an earlier object",
+    "description": "Make the past form agree with a thing or person that comes before the verb, for example 'la lettre que j'ai écrite' (the letter that I wrote).",
+    "terms_introduced": [
+      {
+        "term": "agreement with an earlier object",
+        "plain_explanation": "When the thing or person the action affects comes before the verb, the past form adds -e or -s to match it."
+      }
+    ],
+    "examples": [
+      "Les fleurs que j'ai achetées sont belles. = The flowers that I bought are beautiful.",
+      "Je les ai vues. = I saw them."
+    ],
+    "prerequisites": [
+      "FR-A2-GRM-001",
+      "FR-A2-GRM-005"
+    ],
+    "question_types": [
+      "error_correction",
+      "fill_blank",
+      "mcq",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-011",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Turning verbs into nouns for formal writing",
+    "description": "Turn an action or quality into a noun, as is common in formal writing, for example 'la décision' (the decision) from 'décider' (to decide).",
+    "terms_introduced": [
+      {
+        "term": "noun-making (nominalisation)",
+        "plain_explanation": "Turning an action or quality word into a noun, e.g. 'décider' (to decide) becomes 'la décision' (the decision)."
+      }
+    ],
+    "examples": [
+      "décider → la décision = to decide → the decision",
+      "réussir → la réussite = to succeed → success"
+    ],
+    "prerequisites": [
+      "FR-B2-GRM-008"
+    ],
+    "question_types": [
+      "mcq",
+      "fill_blank",
+      "translate_en_fr",
+      "error_correction"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-GRM-012",
+    "version": 1,
+    "level": "B2",
+    "domain": "GRM",
+    "skill": "Recognising the written past tense (passé simple)",
+    "description": "Recognise the written-only past tense in novels and formal newspapers, so you understand what happened, for example 'il arriva' (he arrived). You do not need to write it yourself.",
+    "terms_introduced": [
+      {
+        "term": "written past tense (passé simple)",
+        "plain_explanation": "A past tense used mainly in books and formal writing. You will recognise it, but you won't need to use it in speech."
+      }
+    ],
+    "examples": [
+      "Il arriva à Paris en hiver. = He arrived in Paris in winter."
+    ],
+    "prerequisites": [
+      "FR-B1-GRM-001"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq",
+      "translate_fr_en"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted",
+    "notes": "Recognition only. Level placement is a common teaching sequence; not yet checked against the RLD inventory."
+  },
+  {
+    "id": "FR-B2-LIS-001",
+    "version": 1,
+    "level": "B2",
+    "domain": "LIS",
+    "skill": "Debates and multi-speaker interviews",
+    "description": "Follow a debate or interview with several speakers on a current issue, and say what points each speaker makes.",
+    "prerequisites": [
+      "FR-B1-LIS-003"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-LIS-002",
+    "version": 1,
+    "level": "B2",
+    "domain": "LIS",
+    "skill": "Fast natural speech on the news",
+    "description": "Understand natural, fast speech on the news or in a podcast, including some informal expressions, when the topic is familiar.",
+    "prerequisites": [
+      "FR-B1-LIS-001"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-LIS-003",
+    "version": 1,
+    "level": "B2",
+    "domain": "LIS",
+    "skill": "Talks and lectures in a familiar field",
+    "description": "Follow a talk or lecture in a field you know, noting the main points and examples.",
+    "prerequisites": [
+      "FR-B1-LIS-001"
+    ],
+    "question_types": [
+      "listening_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall listening comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-PRA-001",
+    "version": 1,
+    "level": "B2",
+    "domain": "PRA",
+    "skill": "Handling a French administrative procedure",
+    "description": "Deal with a French administrative procedure on your own: find out which documents are needed, explain your situation, and ask for something to be repeated.",
+    "examples": [
+      "Quels documents faut-il ? = Which documents are needed?",
+      "Pouvez-vous répéter, s'il vous plaît ? = Could you repeat, please?"
+    ],
+    "prerequisites": [
+      "FR-B1-PRA-002",
+      "FR-B2-VOC-003"
+    ],
+    "question_types": [
+      "spoken_response",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Transactions to obtain goods and services"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF B2; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-PRA-002",
+    "version": 1,
+    "level": "B2",
+    "domain": "PRA",
+    "skill": "Sorting out a problem with a provider by phone",
+    "description": "Phone an internet company or insurer to dispute a bill or change a contract, and summarise what was agreed.",
+    "examples": [
+      "Je conteste cette facture. = I dispute this bill."
+    ],
+    "prerequisites": [
+      "FR-B1-PRA-001"
+    ],
+    "question_types": [
+      "spoken_response",
+      "sentence_order"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Transactions to obtain goods and services"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-PRA-003",
+    "version": 1,
+    "level": "B2",
+    "domain": "PRA",
+    "skill": "Job interview",
+    "description": "Answer common interview questions about your experience and motivation, and ask a few questions of your own.",
+    "examples": [
+      "Pourquoi voulez-vous ce poste ? = Why do you want this job?"
+    ],
+    "prerequisites": [
+      "FR-B1-VOC-001",
+      "FR-B1-SPK-001"
+    ],
+    "question_types": [
+      "spoken_response",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-REA-001",
+    "version": 1,
+    "level": "B2",
+    "domain": "REA",
+    "skill": "Long articles and analysis",
+    "description": "Understand longer articles and analysis on current issues, including the writer's argument and any opinion they hide between the lines.",
+    "prerequisites": [
+      "FR-B1-REA-003"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall reading comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-REA-002",
+    "version": 1,
+    "level": "B2",
+    "domain": "REA",
+    "skill": "Formal official letters",
+    "description": "Understand formal letters from tax, social security or an employer, including conditions and deadlines.",
+    "examples": [
+      "Veuillez trouver ci-joint … = Please find attached …"
+    ],
+    "prerequisites": [
+      "FR-B1-REA-002"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Reading correspondence"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-REA-003",
+    "version": 1,
+    "level": "B2",
+    "domain": "REA",
+    "skill": "Stories and narrative texts",
+    "description": "Read a short story or novel extract and follow the sequence of events, including the past forms used in books.",
+    "examples": [
+      "Elle sourit et partit. = She smiled and left."
+    ],
+    "prerequisites": [
+      "FR-B2-GRM-012",
+      "FR-B1-REA-001"
+    ],
+    "question_types": [
+      "reading_comprehension",
+      "mcq"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall reading comprehension"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-SPK-001",
+    "version": 1,
+    "level": "B2",
+    "domain": "SPK",
+    "skill": "Defending an opinion in discussion",
+    "description": "Defend your opinion in a discussion, reply to objections politely, and admit it when the other person is right.",
+    "examples": [
+      "Vous avez raison, mais … = You're right, but …"
+    ],
+    "prerequisites": [
+      "FR-B1-ADV-001"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken interaction"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-SPK-002",
+    "version": 1,
+    "level": "B2",
+    "domain": "SPK",
+    "skill": "Short presentation on a familiar topic",
+    "description": "Give a presentation of about five minutes on a familiar topic, with a clear introduction, main points and conclusion.",
+    "examples": [
+      "Je vais vous présenter … = I'm going to present to you …"
+    ],
+    "prerequisites": [
+      "FR-B1-SPK-002"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Addressing audiences"
+      },
+      {
+        "source_id": "FEI-DELF",
+        "note": "Task type typical of DELF B2; not checked against the exam specification"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-SPK-003",
+    "version": 1,
+    "level": "B2",
+    "domain": "SPK",
+    "skill": "Explaining a situation in detail",
+    "description": "Explain a problem in detail to a professional, such as a doctor, a bank or a landlord, and answer follow-up questions.",
+    "examples": [
+      "Le problème a commencé il y a deux semaines. = The problem started two weeks ago."
+    ],
+    "prerequisites": [
+      "FR-B1-SPK-002",
+      "FR-B1-PRA-002"
+    ],
+    "question_types": [
+      "spoken_response"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall spoken production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-VOC-001",
+    "version": 1,
+    "level": "B2",
+    "domain": "VOC",
+    "skill": "Economy and work",
+    "description": "Discuss the economy, companies and working life, including unemployment, salaries and business.",
+    "examples": [
+      "le chômage = unemployment",
+      "une entreprise = a company"
+    ],
+    "prerequisites": [
+      "FR-B1-VOC-001"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-VOC-002",
+    "version": 1,
+    "level": "B2",
+    "domain": "VOC",
+    "skill": "Society, inequality and climate",
+    "description": "Discuss social and environmental issues in depth, such as inequality, climate change and public services.",
+    "examples": [
+      "les inégalités = inequalities",
+      "le changement climatique = climate change"
+    ],
+    "prerequisites": [
+      "FR-B1-VOC-004"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-VOC-003",
+    "version": 1,
+    "level": "B2",
+    "domain": "VOC",
+    "skill": "Official and legal words",
+    "description": "Understand and use official words for administration, such as 'une démarche' (a procedure), 'un justificatif' (a proof document) and 'une attestation' (a certificate).",
+    "examples": [
+      "un justificatif de domicile = proof of address",
+      "une attestation = a certificate"
+    ],
+    "prerequisites": [
+      "FR-B1-PRA-002"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "fill_blank"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-VOC-004",
+    "version": 1,
+    "level": "B2",
+    "domain": "VOC",
+    "skill": "Media, films and culture",
+    "description": "Talk about films, books, programmes and reviews, using words such as 'une critique' (a review) and 'une émission' (a programme).",
+    "examples": [
+      "une critique = a review",
+      "une émission = a TV or radio programme"
+    ],
+    "prerequisites": [
+      "FR-B1-VOC-003"
+    ],
+    "question_types": [
+      "mcq",
+      "translate_fr_en",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "RLD-FR",
+        "note": "level placement to be checked against Niveau B2 pour le français"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-WRI-001",
+    "version": 1,
+    "level": "B2",
+    "domain": "WRI",
+    "skill": "Argued essay",
+    "description": "Write an essay or opinion piece that presents both sides of an issue, gives examples and reaches a conclusion.",
+    "examples": [
+      "D'un côté …, de l'autre … = On the one hand …, on the other …"
+    ],
+    "prerequisites": [
+      "FR-B1-WRI-003",
+      "FR-B2-GRM-008"
+    ],
+    "question_types": [
+      "extended_writing"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall written production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-WRI-002",
+    "version": 1,
+    "level": "B2",
+    "domain": "WRI",
+    "skill": "Formal letter: job application or complaint",
+    "description": "Write a formal letter, such as a job application or a complaint to a company, with the right tone and structure.",
+    "examples": [
+      "Je vous prie d'agréer mes salutations distinguées. = Yours faithfully."
+    ],
+    "prerequisites": [
+      "FR-B1-WRI-001"
+    ],
+    "question_types": [
+      "extended_writing",
+      "translate_en_fr"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Writing letters"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  },
+  {
+    "id": "FR-B2-WRI-003",
+    "version": 1,
+    "level": "B2",
+    "domain": "WRI",
+    "skill": "Summarising a text in your own words",
+    "description": "Summarise an article or a conversation in your own words, keeping the main points and leaving out the details.",
+    "examples": [
+      "En résumé, … = In summary, …"
+    ],
+    "prerequisites": [
+      "FR-B2-REA-001"
+    ],
+    "question_types": [
+      "extended_writing"
+    ],
+    "source_refs": [
+      {
+        "source_id": "CEFR-CV-2020",
+        "note": "Scale: Overall written production"
+      }
+    ],
+    "provenance": "ai-drafted",
+    "verification_status": "ai-drafted"
+  }
+]

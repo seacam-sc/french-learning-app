@@ -1,0 +1,182 @@
+{
+ "generated": "2026-10-31",
+ "includesUnverified": true,
+ "objectives": [
+  {
+   "id": "FR-A1-GRM-001",
+   "level": "A1",
+   "domain": "GRM",
+   "skill": "Present tense of être",
+   "description": "Use je suis, tu es, il est.",
+   "terms_introduced": [
+    {
+     "term": "Conjugation",
+     "plain_explanation": "Changing the verb to match who does it, as in je suis and nous sommes."
+    }
+   ],
+   "prerequisites": []
+  },
+  {
+   "id": "FR-A1-VOC-001",
+   "level": "A1",
+   "domain": "VOC",
+   "skill": "Everyday words",
+   "description": "Common everyday words.",
+   "terms_introduced": [
+    {
+     "term": "Article",
+     "plain_explanation": "The small word before a noun, as in le pain or une pomme."
+    },
+    {
+     "term": "Accent",
+     "plain_explanation": "The mark on a letter, as in é in fatiguée."
+    }
+   ],
+   "prerequisites": []
+  },
+  {
+   "id": "FR-A2-GRM-002",
+   "level": "A2",
+   "domain": "GRM",
+   "skill": "Describing how you feel",
+   "description": "Say how you feel.",
+   "prerequisites": [
+    "FR-A1-GRM-001"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "fx-q01",
+   "level": "A1",
+   "objective_id": "FR-A1-GRM-001",
+   "format": "mcq",
+   "prompt": "Je ___ étudiant.",
+   "answer": "suis",
+   "acceptable_alternatives": [],
+   "hint": "The verb goes with je.",
+   "explanation": "Je goes with suis.",
+   "difficulty": 1,
+   "choices": [
+    "suis",
+    "es",
+    "est",
+    "sommes"
+   ],
+   "wrong_answer_feedback": {
+    "es": "es goes with tu, not je."
+   }
+  },
+  {
+   "id": "fx-q02",
+   "level": "A1",
+   "objective_id": "FR-A1-GRM-001",
+   "format": "mcq",
+   "prompt": "Tu ___ en retard.",
+   "answer": "es",
+   "acceptable_alternatives": [],
+   "hint": "The verb goes with tu.",
+   "explanation": "Tu goes with es.",
+   "difficulty": 2,
+   "choices": [
+    "suis",
+    "es",
+    "est",
+    "sommes"
+   ]
+  },
+  {
+   "id": "fx-q03",
+   "level": "A1",
+   "objective_id": "FR-A1-GRM-001",
+   "format": "sentence_order",
+   "prompt": "Put the words in order: I am a student.",
+   "answer": "Je suis étudiant",
+   "acceptable_alternatives": [],
+   "hint": "Start with the person.",
+   "explanation": "The person comes first, then the verb.",
+   "difficulty": 2,
+   "tokens": [
+    "étudiant",
+    "Je",
+    "suis"
+   ]
+  },
+  {
+   "id": "fx-q04",
+   "level": "A1",
+   "objective_id": "FR-A1-VOC-001",
+   "format": "translate_en_fr",
+   "prompt": "Thank you",
+   "answer": "Merci",
+   "acceptable_alternatives": [
+    "Merci beaucoup"
+   ],
+   "hint": "One word.",
+   "explanation": "Merci means thank you.",
+   "difficulty": 2
+  },
+  {
+   "id": "fx-q05",
+   "level": "A1",
+   "objective_id": "FR-A1-VOC-001",
+   "format": "fill_blank",
+   "prompt": "Elle est très ___ ce soir. (tired)",
+   "answer": "fatiguée",
+   "acceptable_alternatives": [],
+   "hint": "The word ends in -ée.",
+   "explanation": "A woman is described with the extra e.",
+   "difficulty": 3,
+   "instruction": "Fill in the blank."
+  },
+  {
+   "id": "fx-q06",
+   "level": "A1",
+   "objective_id": "FR-A1-VOC-001",
+   "format": "mcq",
+   "prompt": "Which word means bread?",
+   "answer": "pain",
+   "acceptable_alternatives": [],
+   "hint": "It starts with p.",
+   "explanation": "Pain is bread.",
+   "difficulty": 3,
+   "choices": [
+    "pain",
+    "poisson",
+    "lait",
+    "fromage"
+   ],
+   "unverified": true
+  },
+  {
+   "id": "fx-q07",
+   "level": "A2",
+   "objective_id": "FR-A2-GRM-002",
+   "format": "translate_en_fr",
+   "prompt": "I am tired.",
+   "answer": "Je suis fatigué",
+   "acceptable_alternatives": [],
+   "hint": "Use suis.",
+   "explanation": "Suis is the form for je.",
+   "difficulty": 4
+  },
+  {
+   "id": "fx-q08",
+   "level": "A2",
+   "objective_id": "FR-A2-GRM-002",
+   "format": "mcq",
+   "prompt": "Nous ___ contents.",
+   "answer": "sommes",
+   "acceptable_alternatives": [],
+   "hint": "The verb goes with nous.",
+   "explanation": "Nous goes with sommes.",
+   "difficulty": 4,
+   "choices": [
+    "suis",
+    "es",
+    "est",
+    "sommes"
+   ]
+  }
+ ]
+}

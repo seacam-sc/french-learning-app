@@ -1,0 +1,944 @@
+[
+  {
+    "id": "Q-B1-GRM-001-001",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-001",
+    "variant_group": "B1-GRM-001-v1",
+    "format": "fill_blank",
+    "instruction": "Fill the gap.",
+    "prompt": "Hier, il ___ (faire) beau quand nous sommes partis.",
+    "answer": "faisait",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "The weather here is the background of the story, so use the 'was doing' form, not the completed-action form.",
+    "explanation": "Faisait is the 'it was' form for the weather. It sets the scene for the event in the rest of the sentence, which is that you left.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-001-002",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-001",
+    "variant_group": "B1-GRM-001-v2",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Nous ___ à la gare quand le train est arrivé.",
+    "choices": [
+      "attendions",
+      "avons attendu",
+      "attendons",
+      "attendrons"
+    ],
+    "answer": "attendions",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "avons attendu": "This is the finished-action form, but the waiting is the background here, so use the 'was doing' form (attendions).",
+      "attendons": "This is the 'we wait' form in the present, which does not fit a past story.",
+      "attendrons": "This means 'we will wait', which points forward and does not fit a past story."
+    },
+    "hint": "The waiting is going on when the train arrives, so the background form is the one you need.",
+    "explanation": "Attendions is the 'we were waiting' form, which describes what was going on when the train came in. The train's arrival is the event, which uses the completed form.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-001-003",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-001",
+    "variant_group": "B1-GRM-001-v3",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "I was reading when she called.",
+    "answer": "Je lisais quand elle a appelé.",
+    "acceptable_alternatives": [
+      "Je lisais quand elle a téléphoné.",
+      "J'étais en train de lire quand elle a appelé.",
+      "Je lisais lorsqu'elle a appelé.",
+      "Je lisais quand elle m'a appelé.",
+      "Je lisais quand elle m'a téléphoné.",
+      "J'étais en train de lire quand elle a téléphoné.",
+      "Quand elle a appelé, je lisais.",
+      "Je lisais quand elle m'a appelée."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Use the 'was doing' form for the reading, and the completed form for the phone call.",
+    "explanation": "Je lisais is the 'I was reading' form, used for the ongoing activity. The call is a finished event, so it uses the completed form a appelé (has called).",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Added alternatives (m'appeler, lorsque, word order). Supervisor: added m'a appelée (female speaker)."
+  },
+  {
+    "id": "Q-B1-GRM-001-004",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-001",
+    "variant_group": "B1-GRM-001-v4",
+    "format": "error_correction",
+    "instruction": "Correct the mistake.",
+    "prompt": "Hier, il a pleuvu toute l'après-midi.",
+    "answer": "Hier, il a plu toute l'après-midi.",
+    "acceptable_alternatives": [
+      "Hier, il a plu tout l'après-midi."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "The past form of this verb is much shorter than the base verb pleuvoir.",
+    "explanation": "The past form of pleuvoir (to rain) is plu, not pleuvu. Use plu for it rained in the past.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Hint was misleading (plu also ends in -u); rewritten. Added tout l'après-midi."
+  },
+  {
+    "id": "Q-B1-GRM-005-001",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-005",
+    "variant_group": "B1-GRM-005-v1",
+    "format": "fill_blank",
+    "instruction": "Fill the gap.",
+    "prompt": "Si j'___ (avoir) plus d'argent, j'achèterais une voiture.",
+    "answer": "avais",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "After si (if), use the 'was having' form, not the 'would' form.",
+    "explanation": "After si (if), use the 'was having' form (avais), and the 'would buy' form (achèterais) in the second part of the sentence.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-005-002",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-005",
+    "variant_group": "B1-GRM-005-v2",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Si nous ___ le temps, nous ferions une promenade.",
+    "choices": [
+      "avions",
+      "avons",
+      "aurions",
+      "aurons"
+    ],
+    "answer": "avions",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "avons": "This is the plain 'we have' form, but after si in an imagined situation you need the 'we were having' form.",
+      "aurions": "This is a 'would have' form, which belongs in the second part of the sentence, not after si.",
+      "aurons": "This means 'we will have', which does not fit an imagined situation like this one."
+    },
+    "hint": "The verb after si describes the imagined condition, so it needs the 'was having' form.",
+    "explanation": "After si (if), use avions (we were having). The 'we would' form (ferions) comes in the second part and shows what would follow.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-005-003",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-005",
+    "variant_group": "B1-GRM-005-v3",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "If she came, we would eat together.",
+    "answer": "Si elle venait, nous mangerions ensemble.",
+    "acceptable_alternatives": [
+      "Si elle venait, on mangerait ensemble.",
+      "Si elle venait, nous mangerions tous ensemble.",
+      "Nous mangerions ensemble si elle venait.",
+      "On mangerait ensemble si elle venait."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Use the 'was coming' form after si, and the 'would eat' form in the second part.",
+    "explanation": "After si (if), use venait (she was coming). The 'we would eat' form (mangerions) goes in the second part and shows the result.",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Added word-order and tous ensemble alternatives."
+  },
+  {
+    "id": "Q-B1-GRM-005-004",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-005",
+    "variant_group": "B1-GRM-005-v4",
+    "format": "fill_blank",
+    "instruction": "Fill the gap.",
+    "prompt": "Si tu ___ (pouvoir) venir, on irait au cinéma.",
+    "answer": "pouvais",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "The verb after si is not in the 'would' form. Think about the 'was able' form for tu.",
+    "explanation": "After si (if), use pouvais (you were able). The 'we would go' form (on irait) comes in the second part of the sentence.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Explanation: irait -> on irait."
+  },
+  {
+    "id": "Q-B1-GRM-006-001",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-006",
+    "variant_group": "B1-GRM-006-v1",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Voici la femme ___ habite à côté de chez moi.",
+    "choices": [
+      "qui",
+      "que",
+      "où",
+      "dont"
+    ],
+    "answer": "qui",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "que": "Que is used when the person is the object of the verb, as in la femme que je connais; here she is the one doing the living, so use qui.",
+      "où": "Où means 'where' and points to a place, not to a person.",
+      "dont": "Dont means 'about whom' and goes with de, which does not appear in this sentence."
+    },
+    "hint": "The word you need refers to the woman, and she is the one doing the action in the second part.",
+    "explanation": "Qui (who) is used when the person in the joining part is the one doing the action, as in la femme qui habite here.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-006-002",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-006",
+    "variant_group": "B1-GRM-006-v2",
+    "format": "fill_blank",
+    "instruction": "Fill the gap.",
+    "prompt": "Le film ___ je t'ai parlé est sorti hier.",
+    "answer": "dont",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Think about the word de that goes with parler (to talk).",
+    "explanation": "Parler de means 'to talk about', so the joining word is dont (about which). Le film dont je t'ai parlé means the film I talked to you about.",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-006-003",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-006",
+    "variant_group": "B1-GRM-006-v3",
+    "format": "sentence_order",
+    "instruction": "Put the words in order.",
+    "tokens": [
+      "Le",
+      "restaurant",
+      "où",
+      "nous",
+      "avons",
+      "mangé",
+      "était",
+      "excellent."
+    ],
+    "prompt": "Put the words in order to make one sentence meaning: The restaurant where we ate was excellent.",
+    "answer": "Le restaurant où nous avons mangé était excellent.",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Start with the restaurant, then add the joining word that means where.",
+    "explanation": "Où (where) joins the place to the rest of the sentence. Le restaurant où nous avons mangé means the restaurant where we ate.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-006-004",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-006",
+    "variant_group": "B1-GRM-006-v4",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "The shop where I work is near the station.",
+    "answer": "Le magasin où je travaille est près de la gare.",
+    "acceptable_alternatives": [
+      "La boutique où je travaille est près de la gare.",
+      "Le magasin où je travaille est à côté de la gare.",
+      "Le magasin où je travaille est proche de la gare.",
+      "La boutique où je travaille est à côté de la gare.",
+      "La boutique où je travaille est proche de la gare."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Find the small joining word that points back to the place, and put it straight after the noun.",
+    "explanation": "Où (where) joins the shop to the sentence about working there. Keep it right after the noun it refers to.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Added near-synonym alternatives."
+  },
+  {
+    "id": "Q-B1-GRM-007-001",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-007",
+    "variant_group": "B1-GRM-007-v1",
+    "format": "fill_blank",
+    "instruction": "Fill the gap.",
+    "prompt": "Il faut que tu ___ (venir) demain.",
+    "answer": "viennes",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "The verb after il faut que has a different ending from the normal present form.",
+    "explanation": "After il faut que (it is necessary that), the verb takes a special form: tu viennes, not tu viens.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-007-002",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-007",
+    "variant_group": "B1-GRM-007-v2",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Je veux que mes enfants ___ à l'école.",
+    "choices": [
+      "aillent",
+      "vont",
+      "iront",
+      "allaient"
+    ],
+    "answer": "aillent",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "vont": "Vont is the normal 'they go' form, but after je veux que the verb needs its special form, aillent.",
+      "iront": "This means 'they will go', which does not fit after je veux que.",
+      "allaient": "This means 'they were going', a past form that does not fit a wish about the future."
+    },
+    "hint": "After je veux que, the verb for they takes a special form that comes from aller (to go).",
+    "explanation": "After je veux que (I want ... to), use aillent (they go, special form). The normal forms vont, iront and allaient are not used here.",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-007-003",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-007",
+    "variant_group": "B1-GRM-007-v3",
+    "format": "error_correction",
+    "instruction": "Correct the mistake.",
+    "prompt": "Il faut que tu prends ton passeport.",
+    "answer": "Il faut que tu prennes ton passeport.",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "One verb in this sentence has the wrong form after il faut que.",
+    "explanation": "After il faut que (it is necessary that), the verb takes a special form: prennes, not prends.",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-GRM-007-004",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-GRM-007",
+    "variant_group": "B1-GRM-007-v4",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "I want you to be on time.",
+    "answer": "Je veux que tu sois à l'heure.",
+    "acceptable_alternatives": [
+      "Je veux que vous soyez à l'heure.",
+      "Je veux que tu sois ponctuel.",
+      "Je veux que tu sois ponctuelle.",
+      "Je veux que vous soyez ponctuel.",
+      "Je veux que vous soyez ponctuelle.",
+      "Je veux que vous soyez ponctuels."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "The verb after je veux que takes a special form, and être (to be) is irregular.",
+    "explanation": "After je veux que (I want ... to), use sois (be, special form). Use tu with a friend, or vous with someone you address politely.",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Added ponctuel(le) alternatives."
+  },
+  {
+    "id": "Q-B1-VOC-002-001",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-VOC-002",
+    "variant_group": "B1-VOC-002-v1",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "Le ___ de l'appartement est de 650 euros par mois.",
+    "choices": [
+      "loyer",
+      "caution",
+      "chauffage",
+      "étage"
+    ],
+    "answer": "loyer",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "caution": "La caution is the deposit you pay at the start and usually get back, not the monthly payment.",
+      "chauffage": "Le chauffage means heating, which is a service, not the monthly payment for the flat itself.",
+      "étage": "Un étage means a floor of a building, not a payment."
+    },
+    "hint": "This is the regular monthly payment you make to the landlord to live in the flat.",
+    "explanation": "Le loyer is the rent, the money you pay each month to live in the flat.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-VOC-002-002",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-VOC-002",
+    "variant_group": "B1-VOC-002-v2",
+    "format": "translate_fr_en",
+    "instruction": "Translate into English.",
+    "prompt": "Le propriétaire a gardé la caution.",
+    "answer": "The landlord has kept the deposit.",
+    "acceptable_alternatives": [
+      "The landlord kept the deposit.",
+      "The owner has kept the deposit.",
+      "The landlord has kept the security deposit.",
+      "The landlord kept the security deposit.",
+      "The owner kept the deposit.",
+      "The landlady has kept the deposit.",
+      "The landlady kept the deposit."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Think about who rents out the flat, and what money is paid at the start and given back later.",
+    "explanation": "Le propriétaire is the landlord, the person who owns the flat you rent. La caution is the deposit paid at the start.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Added alternatives (security deposit, landlady, owner)."
+  },
+  {
+    "id": "Q-B1-VOC-002-003",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-VOC-002",
+    "variant_group": "B1-VOC-002-v3",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "I must give one month's notice.",
+    "answer": "Je dois donner un préavis d'un mois.",
+    "acceptable_alternatives": [
+      "Je dois donner un mois de préavis.",
+      "Je dois respecter un préavis d'un mois.",
+      "Je dois respecter un mois de préavis."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Think about the warning period you give the landlord before you leave, not the money.",
+    "explanation": "Le préavis is the notice period, the time you must warn the landlord before you leave. Donner un préavis means to give notice.",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Added alternative."
+  },
+  {
+    "id": "Q-B1-VOC-002-004",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-VOC-002",
+    "variant_group": "B1-VOC-002-v4",
+    "format": "translate_fr_en",
+    "instruction": "Translate into English.",
+    "prompt": "Le locataire doit payer le loyer chaque mois.",
+    "answer": "The tenant must pay the rent every month.",
+    "acceptable_alternatives": [
+      "The tenant has to pay the rent every month.",
+      "The tenant needs to pay the rent each month.",
+      "The tenant must pay the rent each month.",
+      "The tenant has to pay the rent each month.",
+      "The tenant must pay the rent monthly.",
+      "The tenant needs to pay the rent every month."
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Locataire is the person who rents the flat, and loyer is the money they pay.",
+    "explanation": "Le locataire is the tenant, the person who rents the flat. Chaque mois means every month.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Added alternatives."
+  },
+  {
+    "id": "Q-B1-ADV-002-001",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-ADV-002",
+    "variant_group": "B1-ADV-002-v1",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "prompt": "You are writing to your landlord, Madame Roux, whom you have never met. Which sentence asks her to fix a tap most politely?",
+    "choices": [
+      "Pourriez-vous faire réparer le robinet, s'il vous plaît ?",
+      "Tu peux réparer le robinet ?",
+      "Fais réparer le robinet, s'il te plaît.",
+      "Réparez le robinet vite."
+    ],
+    "answer": "Pourriez-vous faire réparer le robinet, s'il vous plaît ?",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "Tu peux réparer le robinet ?": "Tu is the informal 'you', which is too casual for a landlord you have never met.",
+      "Fais réparer le robinet, s'il te plaît.": "Fais is the informal command form, which is too casual when writing to a landlord you do not know.",
+      "Réparez le robinet vite.": "This uses the polite 'you' form, but as a blunt order with 'quickly', so it sounds rude rather than polite."
+    },
+    "hint": "Choose the sentence that uses the polite 'you' and a soft way of asking.",
+    "explanation": "Use vous and a question such as 'Pourriez-vous ...' when writing to someone you do not know well. The soft wording makes the request polite.",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-ADV-002-002",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-ADV-002",
+    "variant_group": "B1-ADV-002-v2",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "Speaking politely to your boss, Monsieur Lemaire, whom you do not know well: 'Could you send me the report?'",
+    "answer": "Pourriez-vous m'envoyer le rapport ?",
+    "acceptable_alternatives": [
+      "Pourriez-vous me faire parvenir le rapport ?",
+      "Vous pourriez m'envoyer le rapport ?",
+      "Pourriez-vous me transmettre le rapport ?",
+      "Pourriez-vous m'envoyer le rapport, s'il vous plaît ?",
+      "Pourriez-vous m'envoyer le rapport s'il vous plaît ?"
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Use the polite 'you' form, and the soft question form that starts with 'could'.",
+    "explanation": "With a boss you address politely, use vous and the soft question form Pourriez-vous ... (could you ...).",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Added alternatives. Supervisor: added s'il vous plaît variants."
+  },
+  {
+    "id": "Q-B1-ADV-002-003",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-ADV-002",
+    "variant_group": "B1-ADV-002-v3",
+    "format": "error_correction",
+    "instruction": "Correct the mistake.",
+    "prompt": "You are writing to a council officer you have never met. Correct the mistake: Madame, tu pourriez m'envoyer le formulaire ?",
+    "answer": "Madame, vous pourriez m'envoyer le formulaire ?",
+    "acceptable_alternatives": [
+      "Madame, pourriez-vous m'envoyer le formulaire ?"
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "Look at the word for 'you'. It should match the polite level of a council officer you do not know.",
+    "explanation": "With a council officer you do not know, use vous, not tu. Only the 'you' word needs to change.",
+    "difficulty": 3,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-ADV-002-004",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-ADV-002",
+    "variant_group": "B1-ADV-002-v4",
+    "format": "translate_en_fr",
+    "instruction": "Translate into French.",
+    "prompt": "Speaking to your friend Luc, whom you call by his first name: 'Can you come to my party?'",
+    "answer": "Tu peux venir à ma fête ?",
+    "acceptable_alternatives": [
+      "Peux-tu venir à ma fête ?",
+      "Est-ce que tu peux venir à ma fête ?",
+      "Tu peux venir à ma soirée ?",
+      "Peux-tu venir à ma soirée ?",
+      "Est-ce que tu peux venir à ma soirée ?"
+    ],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "hint": "With a close friend, use the informal 'you' form.",
+    "explanation": "With a friend you call by first name, use tu. Tu peux ... is the casual way to ask 'can you ...?'.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Added soirée alternatives."
+  },
+  {
+    "id": "Q-B1-REA-002-001",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-REA-002",
+    "variant_group": "B1-REA-002-v1",
+    "format": "reading_comprehension",
+    "instruction": "Read the letter and choose the correct answer.",
+    "passage": "Monsieur,\n\nNous avons bien reçu votre demande de carte de stationnement. Pour que votre dossier soit complet, vous devez nous envoyer une copie de votre justificatif de domicile avant le 15 novembre. Sans ce document, nous ne pourrons pas traiter votre demande.\n\nVous pouvez déposer le dossier au guichet du service Stationnement, 12 rue des Tilleuls, du lundi au vendredi, de 9 h à 12 h.\n\nVeuillez agréer, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Stationnement, Mairie de Saint-Aubin",
+    "prompt": "What must you send before 15 November?",
+    "choices": [
+      "A copy of your proof of address",
+      "Your car registration papers",
+      "A cheque for the parking permit",
+      "A new photo for your driving licence"
+    ],
+    "answer": "A copy of your proof of address",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "Your car registration papers": "The letter does not ask for car papers; it asks for a proof of address.",
+      "A cheque for the parking permit": "The letter does not mention any payment or cheque.",
+      "A new photo for your driving licence": "The letter does not mention a driving licence or a photo."
+    },
+    "hint": "Find the phrase 'vous devez nous envoyer' in the first paragraph.",
+    "explanation": "The letter asks for a copy of your justificatif de domicile (proof of address) before 15 November. Without it, the council cannot handle your request.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Hint said sentence 'starts with' the phrase; it does not. Reworded."
+  },
+  {
+    "id": "Q-B1-REA-002-002",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-REA-002",
+    "variant_group": "B1-REA-002-v2",
+    "format": "reading_comprehension",
+    "instruction": "Read the letter and choose the correct answer.",
+    "passage": "Monsieur,\n\nNous avons bien reçu votre demande de carte de stationnement. Pour que votre dossier soit complet, vous devez nous envoyer une copie de votre justificatif de domicile avant le 15 novembre. Sans ce document, nous ne pourrons pas traiter votre demande.\n\nVous pouvez déposer le dossier au guichet du service Stationnement, 12 rue des Tilleuls, du lundi au vendredi, de 9 h à 12 h.\n\nVeuillez agréer, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Stationnement, Mairie de Saint-Aubin",
+    "prompt": "When and where can you hand in the file in person?",
+    "choices": [
+      "At the Stationnement counter, 12 rue des Tilleuls, Monday to Friday, 9 am to 12 noon",
+      "By post only, sent to the town hall",
+      "Online, through your bank's website",
+      "On Saturday afternoons only, at the town hall"
+    ],
+    "answer": "At the Stationnement counter, 12 rue des Tilleuls, Monday to Friday, 9 am to 12 noon",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "By post only, sent to the town hall": "The letter says you can bring the file in person, and it does not say post only.",
+      "Online, through your bank's website": "The letter does not mention a bank or an online option.",
+      "On Saturday afternoons only, at the town hall": "The letter gives Monday to Friday mornings at the Stationnement counter, not Saturday afternoons."
+    },
+    "hint": "Look for the sentence that gives the days and the hours.",
+    "explanation": "The letter says you can hand in the file at the Stationnement counter, Monday to Friday, from 9 am to 12 noon (9 h à 12 h).",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-REA-002-003",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-REA-002",
+    "variant_group": "B1-REA-002-v3",
+    "format": "reading_comprehension",
+    "instruction": "Read the letter and choose the correct answer.",
+    "passage": "Madame,\n\nSuite à votre déclaration de sinistre du 3 octobre, nous vous informons que votre dossier est en cours d'examen. Afin de le finaliser, merci de nous transmettre les photos des dégâts et le devis du plombier avant le 30 novembre. Passé ce délai, votre dossier sera clôturé.\n\nVous pouvez également nous écrire à l'adresse indiquée en haut de cette lettre.\n\nNous vous prions d'agréer, Madame, l'expression de nos sincères salutations.\n\nAssurances Lebrun, Service Sinistres",
+    "prompt": "What do you need to send before 30 November?",
+    "choices": [
+      "Photos of the damage and the plumber's quote",
+      "A new insurance policy",
+      "Your bank statement",
+      "A copy of your passport"
+    ],
+    "answer": "Photos of the damage and the plumber's quote",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "A new insurance policy": "The letter does not ask you to take out a new policy.",
+      "Your bank statement": "The letter does not mention a bank statement.",
+      "A copy of your passport": "The letter does not ask for a passport."
+    },
+    "hint": "Look for the sentence that starts with 'Afin de le finaliser'.",
+    "explanation": "The company wants photos of the damage and the plumber's quote (devis) by 30 November, or your claim will be closed.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  },
+  {
+    "id": "Q-B1-REA-002-004",
+    "version": 1,
+    "level": "B1",
+    "objective_id": "FR-B1-REA-002",
+    "variant_group": "B1-REA-002-v4",
+    "format": "mcq",
+    "instruction": "Choose the correct answer.",
+    "passage": "Madame,\n\nSuite à votre déclaration de sinistre du 3 octobre, nous vous informons que votre dossier est en cours d'examen. Afin de le finaliser, merci de nous transmettre les photos des dégâts et le devis du plombier avant le 30 novembre. Passé ce délai, votre dossier sera clôturé.\n\nVous pouvez également nous écrire à l'adresse indiquée en haut de cette lettre.\n\nNous vous prions d'agréer, Madame, l'expression de nos sincères salutations.\n\nAssurances Lebrun, Service Sinistres",
+    "prompt": "What happens if you do not send the documents on time?",
+    "choices": [
+      "Your claim will be closed.",
+      "You will receive a larger payment.",
+      "The company will phone you the next day.",
+      "Nothing changes, and you can send them later."
+    ],
+    "answer": "Your claim will be closed.",
+    "acceptable_alternatives": [],
+    "answer_check": {
+      "mode": "normalised",
+      "accent_policy": "near_miss"
+    },
+    "wrong_answer_feedback": {
+      "You will receive a larger payment.": "The letter does not mention any payment; it talks about closing your file after the deadline.",
+      "The company will phone you the next day.": "The letter says you can write to them, and does not promise a phone call.",
+      "Nothing changes, and you can send them later.": "The letter says that after the deadline (passé ce délai) your file will be closed, so you cannot wait."
+    },
+    "hint": "Look for the sentence that starts with 'Passé ce délai'.",
+    "explanation": "The letter says that after the deadline your file will be closed (clôturé), so the claim would end.",
+    "difficulty": 2,
+    "status": "ai_reviewed",
+    "provenance": {
+      "method": "ai-generated",
+      "model_tier": "haiku",
+      "batch_id": "B003",
+      "date": "2026-10-31"
+    },
+    "review_notes": "Reviewed; no change needed."
+  }
+]
