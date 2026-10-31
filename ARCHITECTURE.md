@@ -1,4 +1,4 @@
-# Architecture (proposed — awaiting approval)
+# Architecture (approved 2026-10-31)
 
 ## Summary
 A local-first Progressive Web App. Static files only, no server, no accounts, no analytics. Questions are JSON files in the repo; progress lives in the browser (IndexedDB) and can be exported/imported as a JSON file.
